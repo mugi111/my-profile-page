@@ -1,15 +1,12 @@
 <script>
 	import HeaderNavLink from "./components/header-nav-link";
-	import Button from "./components/button";
-	export let name;
 </script>
 
 <HeaderNavLink />
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1>Hirunuma Takumi</h1>
+	<p>- Portfolio Site -</p>
 </main>
-<Button label="button" />
 
 <style>
 	main {
@@ -20,10 +17,14 @@
 	}
 
 	h1 {
-		color: #ff3e00;
+		color: black;
 		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;
+	}
+
+	p {
+		font-size: 2em;
 	}
 
 	@media (min-width: 640px) {
