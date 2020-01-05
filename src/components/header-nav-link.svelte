@@ -9,6 +9,7 @@
     width: 100%;
     height: 45px;
     text-align: right;
+    position: fixed;
   }
 
   .header-link {
