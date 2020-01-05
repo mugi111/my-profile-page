@@ -2,6 +2,7 @@
 	import HeaderNavLink from "./components/header-nav-link";
 	import Home from "./components/home";
 	import About from "./components/about";
+	import Skill from "./components/skill";
 </script>
 
 <HeaderNavLink />
@@ -12,8 +13,10 @@
 	<div class="about-div" id="about">
 		<About />
 	</div>
+	<div class="skill-div" id="skill">
+		<Skill />
+	</div>
 </main>
-
 <style>
 	main {
 		text-align: center;
