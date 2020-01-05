@@ -4,8 +4,10 @@
 
 <HeaderNavLink />
 <main>
-	<h1>Hirunuma Takumi</h1>
-	<p>- Portfolio Site -</p>
+	<div id="home">
+		<h1>Hirunuma Takumi</h1>
+		<p>- Portfolio Site -</p>
+	</div>
 </main>
 
 <style>
