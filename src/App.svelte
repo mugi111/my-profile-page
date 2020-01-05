@@ -1,12 +1,16 @@
 <script>
 	import HeaderNavLink from "./components/header-nav-link";
+	import About from "./components/about";
 </script>
 
 <HeaderNavLink />
 <main>
-	<div id="home">
+	<div class="home-div" id="home">
 		<h1>Hirunuma Takumi</h1>
 		<p>- Portfolio Site -</p>
+	</div>
+	<div id="about">
+		<About />
 	</div>
 </main>
 
@@ -27,6 +31,10 @@
 
 	p {
 		font-size: 2em;
+	}
+
+	.home-div {
+		height: calc(100vh - 45px);
 	}
 
 	@media (min-width: 640px) {
