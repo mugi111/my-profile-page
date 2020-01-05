@@ -1,15 +1,15 @@
 <script>
 	import HeaderNavLink from "./components/header-nav-link";
+	import Home from "./components/home";
 	import About from "./components/about";
 </script>
 
 <HeaderNavLink />
 <main>
 	<div class="home-div" id="home">
-		<h1>Hirunuma Takumi</h1>
-		<p>- Portfolio Site -</p>
+		<Home />
 	</div>
-	<div id="about">
+	<div class="about-div" id="about">
 		<About />
 	</div>
 </main>
@@ -21,19 +21,9 @@
 		max-width: 240px;
 		margin: 0 auto;
 	}
-
-	h1 {
-		color: black;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	p {
-		font-size: 2em;
-	}
-
+	
 	.home-div {
+		background-color: azure;
 		height: calc(100vh - 45px);
 	}
 
