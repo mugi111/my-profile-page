@@ -1,4 +1,9 @@
+<script>
+  import AboutList from "./about-list";
+</script>
+
 <h2 class="title-about">About</h2>
+<AboutList />
 
 <style>
   .title-about {
