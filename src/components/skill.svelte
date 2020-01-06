@@ -4,7 +4,7 @@
 </script>
 
 <h2 class="title-skill">Skill</h2>
-<SkillTile imgSrc={Kicad} textTitle="test" textBody="test desu" />
+<SkillTile imgSrc={Kicad} textTitle="KiCad" textBody="KiCadを使用した回路・基板設計" />
 
 <style>
   .title-skill {

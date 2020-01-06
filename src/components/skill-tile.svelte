@@ -9,26 +9,31 @@
   <div class="img-div">
     <img class="tile-img" alt="tile-img" {src} />
   </div>
-  <div class="text-title-div">{textTitle}</div>
-  <div class="text-body-div">{textBody}</div>
+  <p class="text-title-p">{textTitle}</p>
+  <p class="text-body-p">{textBody}</p>
 </div>
 
 <style>
   .tile-frame {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border: 5px solid blue;
     border-radius: 10px;
   }
 
   .img-div {
-    width: 300px;
-    height: 180px;
+    width: 100%;
+    height: 60%;
     border-bottom: 3px dotted blue;
   }
   
   .tile-img {
     width: 100%;
     height: auto;
+  }
+
+  .text-title-p {
+    font-weight: bold;
+    font-size: 20px;
   }
 </style>
