@@ -3,13 +3,14 @@
 
 <style>
   h1 {
-		color: black;
+		color: silver;
 		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;
 	}
 
 	p {
+		color: silver;
 		font-size: 2em;
 	}
 </style>
