@@ -5,8 +5,8 @@
 	import Skill from "./components/skill";
 </script>
 
-<HeaderNavLink />
 <main>
+	<HeaderNavLink />
 	<div class="home-div" id="home">
 		<Home />
 	</div>
@@ -23,10 +23,10 @@
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
+		background-color: azure;
 	}
 	
 	.home-div {
-		background-color: azure;
 		height: calc(100vh - 45px);
 	}
 
