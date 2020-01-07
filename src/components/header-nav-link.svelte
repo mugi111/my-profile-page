@@ -11,25 +11,39 @@
     text-align: right;
     right: 5px;
     position: fixed;
+    background-color: black;
   }
 
   .header-link {
+    color: whitesmoke;
     text-decoration-line: none;
-    margin: 3px;
+    margin: 10px;
     padding: 3px 8px;
-    border: 2px solid black;
-    background-image: linear-gradient(to right, white 50%, black 50%);
-    background-position: 0 0;
-    background-size: 200% auto;
     transition: .3s;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.5em;
+  }
+
+  .header-link::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: whitesmoke;
+    transform: scale(0, 1);
+    transform-origin: right top;
+    transition: transform .3s;
   }
   
-  .header-link:hover {
-    background-position: -100% 0;
-    color: white !important;
+  a:hover::after {
+    transform-origin: left top;
+    transform: scale(1, 1);
   }
 
   .header-link:visited {
-    color: black;
+    color: white;
   }
 </style>
