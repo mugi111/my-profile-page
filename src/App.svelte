@@ -5,8 +5,8 @@
 	import Skill from "./components/skill";
 </script>
 
+<HeaderNavLink />
 <main>
-	<HeaderNavLink />
 	<div class="home-div" id="home">
 		<Home />
 	</div>
