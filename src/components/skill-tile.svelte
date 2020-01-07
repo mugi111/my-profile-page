@@ -22,14 +22,19 @@
   }
 
   .img-div {
-    width: 100%;
-    height: 60%;
+    display: table-cell;
+    width: 250px;
+    height: 150px;
     border-bottom: 3px dotted blue;
+    text-align: center;
+    vertical-align: middle;
   }
   
   .tile-img {
-    width: 100%;
+    width: auto;
     height: auto;
+    max-width: 100%;
+    max-height: 100%;
   }
 
   .text-title-p {
