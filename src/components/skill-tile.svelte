@@ -17,15 +17,17 @@
   .tile-frame {
     width: 250px;
     height: 250px;
-    border: 5px solid blue;
-    border-radius: 10px;
+    border-radius: 5px;
+    background-color: white;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.2));
+    margin: 5px;
   }
 
   .img-div {
     display: table-cell;
     width: 250px;
-    height: 150px;
-    border-bottom: 3px dotted blue;
+    height: 125px;
+    padding: 8px;
     text-align: center;
     vertical-align: middle;
   }
