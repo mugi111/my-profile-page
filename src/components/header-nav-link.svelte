@@ -7,9 +7,8 @@
 <style>
   .header {
     width: 100%;
-    height: 45px;
+    height: 65px;
     text-align: right;
-    right: 5px;
     position: fixed;
     background-color: black;
   }
