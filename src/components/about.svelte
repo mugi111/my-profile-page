@@ -23,5 +23,6 @@
     height: 200px;
     width: 200px;
     margin: 5px;
+    border-radius: 100px;
   }
 </style>
