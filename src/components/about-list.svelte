@@ -41,6 +41,7 @@
   .about-key {
     font-weight: bold;
     text-align: left;
+    color: silver;
   }
 
   .official-logo {
