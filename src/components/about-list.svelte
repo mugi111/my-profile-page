@@ -1,5 +1,5 @@
 <script>
-  import Github from "../assets/Octocat.png";
+  import Github from "../assets/GitHub-Mark-120px-plus.png";
   import Twitter from "../assets/Twitter_Logo_Blue.png";
   import Facebook from "../assets/f_logo_RGB-Blue_100.png";
   import Instagram from "../assets/instagram-circle.png"
@@ -47,5 +47,7 @@
     height: 100px;
     width: auto;
     margin: 10px;
+    border-radius: 50px;
+    background-color: white;
   }
 </style>
