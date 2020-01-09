@@ -21,9 +21,9 @@
   }
 
   .profile-icon {
-    height: 200px;
-    width: 200px;
-    margin: 5px;
-    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    margin: 25px;
+    border-radius: 75px;
   }
 </style>

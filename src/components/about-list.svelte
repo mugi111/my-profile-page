@@ -1,5 +1,6 @@
 <script>
   import Github from "../assets/GitHub-Mark-120px-plus.png";
+  import Qiita from "../assets/qiita-text.png";
   import Twitter from "../assets/Twitter_Logo_Blue.png";
   import Facebook from "../assets/f_logo_RGB-Blue_100.png";
   import Instagram from "../assets/instagram-circle.png"
@@ -14,39 +15,36 @@
   <span class="about-key">Education : </span>
   <span class="about-value">NIT, Tokyo College (2014 / 4 - 2019 / 3)</span>
 </p>
-<p>
-  <span class="about-key">qiita : </span>
-  <a href="https://qiita.com/mugi111">mugi111</a>
-</p>
-
-<a target="_blank" href="https://github.com/mugi111"><img class="github-logo official-logo" alt="github-logo" src={Github} /></a>
-<a target="_blank" href="https://twitter.com/mg111_"><img class="twitter-logo official-logo" alt="github-logo" src={Twitter} /></a>
-<a target="_blank" href="https://www.facebook.com/takumi.hirunuma"><img class="facebook-logo official-logo" alt="github-logo" src={Facebook} /></a>
-<a target="_blank" href="https://www.instagram.com/mgfm1001/"><img class="instagram-logo official-logo" alt="github-logo" src={Instagram} /></a>
+<a rel="noreferrer" target="_blank" href="https://github.com/mugi111"><img class="github-logo official-logo" alt="github-logo" src={Github} /></a>
+<a rel="noreferrer" target="_blank" href="https://qiita.com/mugi111"><img class="qiita-logo official-logo" alt="qiita-logo" src={Qiita} /></a>
+<a rel="noreferrer" target="_blank" href="https://twitter.com/mg111_"><img class="twitter-logo official-logo" alt="github-logo" src={Twitter} /></a>
+<a rel="noreferrer" target="_blank" href="https://www.facebook.com/takumi.hirunuma"><img class="facebook-logo official-logo" alt="github-logo" src={Facebook} /></a>
+<a rel="noreferrer" target="_blank" href="https://www.instagram.com/mgfm1001/"><img class="instagram-logo official-logo" alt="github-logo" src={Instagram} /></a>
 
 <style>
   h2 {
     color: whitesmoke;
+    font-size: 2em;
     font-weight: 200;
   }
 
   .about-key {
-    font-weight: bold;
+    font-weight: 400;
     text-align: left;
     color: silver;
   }
 
-    .about-value {
-    font-weight: bold;
+  .about-value {
+    font-weight: 400;
     text-align: left;
     color: silver;
   }
 
   .official-logo {
-    height: 100px;
+    height: 70px;
     width: auto;
-    margin: 10px;
-    border-radius: 50px;
+    margin: 20px;
+    border-radius: 35px;
     background-color: white;
   }
 </style>
