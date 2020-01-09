@@ -7,30 +7,14 @@
 
 <h2>HirunumaTakumi (mugi111)</h2>
 <p>
-  <span class="about-key">github</span>
-  <a href="https://github.com/mugi111">mugi111</a>
-</p>
-<p>
   <span class="about-key">qiita</span>
   <a href="https://qiita.com/mugi111">mugi111</a>
 </p>
-<p>
-  <span class="about-key">Twitter</span>
-  <a href="https://twitter.com/mg111_">mg111_</a>
-</p>
-<p>
-  <span class="about-key">Facebook</span>
-  <a href="https://www.facebook.com/takumi.hirunuma">蛭沼 拓視</a>
-</p>
-<p>
-  <span class="about-key">Instagram</span>
-  <a href="https://www.instagram.com/mgfm1001/">mgfm1001</a>
-</p>
 
-<img class="github-logo official-logo" alt="github-logo" src={Github} />
-<img class="twitter-logo official-logo" alt="github-logo" src={Twitter} />
-<img class="facebook-logo official-logo" alt="github-logo" src={Facebook} />
-<img class="instagram-logo official-logo" alt="github-logo" src={Instagram} />
+<a target="_blank" href="https://github.com/mugi111"><img class="github-logo official-logo" alt="github-logo" src={Github} /></a>
+<a target="_blank" href="https://twitter.com/mg111_"><img class="twitter-logo official-logo" alt="github-logo" src={Twitter} /></a>
+<a target="_blank" href="https://www.facebook.com/takumi.hirunuma"><img class="facebook-logo official-logo" alt="github-logo" src={Facebook} /></a>
+<a target="_blank" href="https://www.instagram.com/mgfm1001/"><img class="instagram-logo official-logo" alt="github-logo" src={Instagram} /></a>
 
 <style>
   h2 {
