@@ -7,7 +7,15 @@
 
 <h2>HirunumaTakumi (mugi111)</h2>
 <p>
-  <span class="about-key">qiita</span>
+  <span class="about-key">Birthday : </span>
+  <span class="about-value">1998 / 12 / 30</span>
+</p>
+<p>
+  <span class="about-key">Education : </span>
+  <span class="about-value">NIT, Tokyo College (2014 / 4 - 2019 / 3)</span>
+</p>
+<p>
+  <span class="about-key">qiita : </span>
   <a href="https://qiita.com/mugi111">mugi111</a>
 </p>
 
@@ -23,6 +31,12 @@
   }
 
   .about-key {
+    font-weight: bold;
+    text-align: left;
+    color: silver;
+  }
+
+    .about-value {
     font-weight: bold;
     text-align: left;
     color: silver;
