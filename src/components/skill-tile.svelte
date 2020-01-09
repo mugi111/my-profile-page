@@ -20,7 +20,7 @@
     border-radius: 5px;
     background-color: white;
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.2));
-    margin: 5px;
+    margin: 10px;
   }
 
   .img-div {

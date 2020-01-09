@@ -29,7 +29,7 @@
   }
 
   .about-key {
-    font-weight: 400;
+    font-weight: 600;
     text-align: left;
     color: silver;
   }
