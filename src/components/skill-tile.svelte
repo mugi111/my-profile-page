@@ -18,7 +18,7 @@
     width: 250px;
     height: 250px;
     border-radius: 5px;
-    background-color: white;
+    background-color: #F4F5F7;
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.2));
     margin: 10px;
   }
@@ -28,6 +28,8 @@
     width: 250px;
     height: 125px;
     padding: 8px;
+    border-radius: 5px;
+    background-color: white;
     text-align: center;
     vertical-align: middle;
   }
