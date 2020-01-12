@@ -8,11 +8,17 @@
 
 <h2>HirunumaTakumi (mugi111)</h2>
 <p>
-  <span class="about-key">Birthday : </span>
+  <span class="about-key">
+    <i class="material-icons">cake</i>
+    Birthday : 
+  </span>
   <span class="about-value">1998 / 12 / 30</span>
 </p>
 <p>
-  <span class="about-key">Education : </span>
+  <span class="about-key">
+    <i class="material-icons">school</i>
+    Education : 
+  </span>
   <span class="about-value">NIT, Tokyo College (2014 / 4 - 2019 / 3)</span>
 </p>
 <a rel="noreferrer" target="_blank" href="https://github.com/mugi111"><img class="github-logo official-logo" alt="github-logo" src={Github} /></a>
