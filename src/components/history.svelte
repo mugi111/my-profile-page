@@ -7,6 +7,10 @@
     owner: "mugi111",
     repo: "my-profile-page",
   }).then((res) => {
-    console.log(res);
+    if (res.status === 200) {
+      const releaseLog = res.data.map((data) => {
+        return {tag: data.tag_name, name: data.name, body: data.body};
+      })
+    }
   })
 </script>
