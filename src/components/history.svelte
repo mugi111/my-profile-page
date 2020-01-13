@@ -22,7 +22,7 @@
   <span class="history-text">{release.month}/</span>
   <span class="history-text">{release.day}</span>
   <span class="history-text">{release.tag}</span>
-  <span class="history-text">{release.body}</span>
+  <span class="history-text">{release.name}</span>
   <br />
 {/each}
 
