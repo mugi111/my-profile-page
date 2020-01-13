@@ -1,11 +1,8 @@
 <script>
   import Octokit from "@octokit/rest";
-  import Token from "../token.json";
 
   console.log("history");
-  const octokit = new Octokit({
-    auth: Token.gihub,
-  });
+  const octokit = new Octokit();
   octokit.repos.listReleases({
     owner: "mugi111",
     repo: "my-profile-page",
