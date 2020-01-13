@@ -23,6 +23,7 @@
   <span class="history-text">{release.day}</span>
   <span class="history-text">{release.tag}</span>
   <span class="history-text">{release.body}</span>
+  <br />
 {/each}
 
 <style>
