@@ -22,6 +22,7 @@
 <style>
   .skill-tile-wrapper {
     display: inline-flex;
+    justify-content: center;
     flex-wrap: wrap;
     text-align: center;
   }
