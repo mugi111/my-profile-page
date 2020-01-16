@@ -11,6 +11,7 @@
     text-align: right;
     position: fixed;
     background-color: black;
+    z-index: 100;
   }
 
   .header-link {
