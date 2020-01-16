@@ -30,6 +30,7 @@
 	
 	.home-div {
 		height: calc(100vh - 45px);
+		display: inline-flex;
 	}
 
 	@media (min-width: 640px) {
