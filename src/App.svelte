@@ -17,7 +17,9 @@
 	<div class="skill-div" id="skill">
 		<Skill />
 	</div>
-	<History />
+	<div class="history-div" id="history">
+		<History />
+	</div>
 </main>
 
 <style>

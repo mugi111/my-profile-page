@@ -8,6 +8,7 @@
 <style>
   .header {
     width: 100%;
+    min-width: 370px;
     height: 65px;
     text-align: right;
     position: fixed;
@@ -24,6 +25,7 @@
     position: relative;
     display: inline-block;
     letter-spacing: 0.5em;
+    font-size: 2.5vw;
   }
 
   .header-link::after {
