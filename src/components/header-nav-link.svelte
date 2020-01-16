@@ -2,6 +2,7 @@
   <a class="header-link" href="#home">HOME</a>
   <a class="header-link" href="#about">ABOUT</a>
   <a class="header-link" href="#skill">SKILL</a>
+  <a class="header-link" href="#history">HISTORY</a>
 </div>
 
 <style>
