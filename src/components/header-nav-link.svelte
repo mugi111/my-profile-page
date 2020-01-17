@@ -25,7 +25,6 @@
     position: relative;
     display: inline-block;
     letter-spacing: 0.5em;
-    font-size: 2.5vw;
   }
 
   .header-link::after {
