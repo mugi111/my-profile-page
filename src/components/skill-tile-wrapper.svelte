@@ -2,11 +2,11 @@
   import SkillTile from "./skill-tile";
   import Kicad from "../assets/kicad-logo.png";
   import React from "../assets/react-logo.png";
-  import CommonLisp from "../assets/common-lisp-logo.png";
+  import CommonLisp from "../assets/lisp-alien.png";
   import Svelte from "../assets/svelte-logo.png";
-  import Kotlin from "../assets/1920px-Kotlin-logo.png";
-  import Ruby from "../assets/Ruby-logo-notext.png";
-  import Python from "../assets/2880px-Python_logo_and_wordmark.png";
+  import Kotlin from "../assets/kotlin-logo.png";
+  import Ruby from "../assets/ruby-logo.png";
+  import Python from "../assets/python-logo.png";
 </script>
 
 <div class="skill-tile-wrapper">

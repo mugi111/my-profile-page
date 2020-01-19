@@ -1,9 +1,9 @@
 <script>
-  import Github from "../assets/GitHub-Mark-120px-plus.png";
+  import Github from "../assets/octcat.png";
   import Qiita from "../assets/qiita-text.png";
-  import Twitter from "../assets/Twitter_Logo_Blue.png";
-  import Facebook from "../assets/f_logo_RGB-Blue_100.png";
-  import Instagram from "../assets/instagram-circle.png"
+  import Twitter from "../assets/twitter-logo.png";
+  import Facebook from "../assets/facebook-logo.png";
+  import Instagram from "../assets/instagram-logo.png"
 </script>
 
 <h2>HirunumaTakumi (mugi111)</h2>
