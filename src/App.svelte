@@ -3,6 +3,7 @@
 	import Home from "./components/home";
 	import About from "./components/about";
 	import Skill from "./components/skill";
+	import Certification from "./components/certification";
 	import History from "./components/history";
 </script>
 
@@ -16,6 +17,9 @@
 	</div>
 	<div class="skill-div" id="skill">
 		<Skill />
+	</div>
+	<div class="certification" id="certification">
+		<Certification />
 	</div>
 	<div class="history-div" id="history">
 		<History />
