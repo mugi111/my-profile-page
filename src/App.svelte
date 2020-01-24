@@ -5,6 +5,7 @@
 	import Skill from "./components/skill";
 	import Certification from "./components/certification";
 	import History from "./components/history";
+	import Footer from "./components/footer";
 </script>
 
 <HeaderNavLink />
@@ -25,6 +26,7 @@
 		<History />
 	</div>
 </main>
+<Footer />
 
 <style>
 	main {
