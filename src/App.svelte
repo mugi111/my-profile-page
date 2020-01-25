@@ -8,7 +8,9 @@
 	import Footer from "./components/footer";
 </script>
 
-<HeaderNavLink />
+<header>
+	<HeaderNavLink />
+</header>
 <main>
 	<div class="home-div" id="home">
 		<Home />
@@ -32,13 +34,18 @@
 	main {
 		text-align: center;
 		padding: 1em;
-		max-width: 240px;
 		margin: 0 auto;
 	}
 	
 	.home-div {
 		height: calc(100vh - 45px);
 		display: inline-flex;
+	}
+
+	@media (max-width: 640px) {
+		header {
+			display: none;
+		}
 	}
 
 	@media (min-width: 640px) {
