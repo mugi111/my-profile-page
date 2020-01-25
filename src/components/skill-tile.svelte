@@ -1,11 +1,17 @@
 <script>
+  import { skillModalState } from "../stores.js";
+
   export let imgSrc;
   export let textTitle;
   export let textBody;
   let src = imgSrc;
+
+  const handleClickTile = () => {
+    skillModalState.set(true);
+  }
 </script>
 
-<div class="tile-frame">
+<div class="tile-frame" on:click={handleClickTile}>
   <div class="img-div">
     <img class="tile-img" alt="tile-img" {src} />
   </div>
