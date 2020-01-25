@@ -1,4 +1,5 @@
 <script>
+  import { fade } from 'svelte/transition';
   import { skillModalState, skillDetail } from "../stores.js";
 
   let isOpen;
@@ -34,7 +35,7 @@
 
 <svelte:window on:keyup={handleKeyup}/>
 {#if isOpen}
-  <div class="skill-modal-bg" on:click={handleOuterClick} bind:this={background}>
+  <div class="skill-modal-bg" on:click={handleOuterClick} bind:this={background} transition:fade={{duration:200}}>
     <div class="skill-modal-container">
       <p>{detail.title}</p>
       {#each detail.body as body}
