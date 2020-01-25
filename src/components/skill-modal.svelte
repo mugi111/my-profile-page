@@ -37,7 +37,7 @@
 {#if isOpen}
   <div class="skill-modal-bg" on:click={handleOuterClick} bind:this={background} transition:fade={{duration:200}}>
     <div class="skill-modal-container">
-      <p>{detail.title}</p>
+      <p class="text-title-p">{detail.title}</p>
       {#each detail.body as body}
         <span class="skill-detail">{body}</span>
       {/each}
@@ -59,7 +59,7 @@
   .skill-modal-container {
     position: fixed;
     width: 50%;
-    padding: 30px;
+    padding: 30px 30px 50px 30px;
     background: white;
     border-radius: 10px;
     top: 50%;
@@ -70,5 +70,10 @@
 
   .skill-detail {
     display: block;
+  }
+
+  .text-title-p {
+    font-weight: bold;
+    font-size: 20px;
   }
 </style>
