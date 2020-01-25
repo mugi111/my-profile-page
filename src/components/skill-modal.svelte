@@ -53,7 +53,9 @@
   .skill-modal-container {
     position: fixed;
     width: 50%;
+    padding: 30px;
     background: white;
+    border-radius: 10px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
