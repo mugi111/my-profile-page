@@ -1,13 +1,18 @@
 <script>
-  let isOpen = true;
+  import { skillModalState } from "../stores.js";
 
+  let isOpen;
   let background;
 
   export let skillName;
   export let skillDetail;
 
+  const unsubscribe = skillModalState.subscribe(state => {
+		isOpen = state;
+	});
+
   const handleKeyup = ({ key }) => {
-    if (closeOnEsc && Component && key === 'Escape') {
+    if (isOpen && key === 'Escape') {
       event.preventDefault();
       close();
     }
@@ -20,12 +25,8 @@
     }
   };
 
-  const open = () => {
-    isOpen = true;
-  }
-
   const close = () => {
-    isOpen = false;
+    skillModalState.set(false);
   }
 </script>
 
