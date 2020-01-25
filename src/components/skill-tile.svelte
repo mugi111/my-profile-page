@@ -1,16 +1,22 @@
 <script>
+  import { skillModalState, skillDetail } from "../stores.js";
+
   export let imgSrc;
   export let textTitle;
   export let textBody;
   let src = imgSrc;
+
+  const handleClickTile = () => {
+    skillModalState.set(true);
+    skillDetail.set({title: textTitle, body: textBody})
+  }
 </script>
 
-<div class="tile-frame">
+<div class="tile-frame" on:click={handleClickTile}>
   <div class="img-div">
     <img class="tile-img" alt="tile-img" {src} />
   </div>
   <p class="text-title-p">{textTitle}</p>
-  <p class="text-body-p">{textBody}</p>
 </div>
 
 <style>
@@ -26,7 +32,7 @@
   .img-div {
     display: table-cell;
     width: 250px;
-    height: 125px;
+    height: 160px;
     padding: 8px;
     border-radius: 5px;
     background-color: white;
