@@ -1,15 +1,17 @@
 <script>
-  import { skillModalState } from "../stores.js";
+  import { skillModalState, skillDetail } from "../stores.js";
 
   let isOpen;
+  let detail;
   let background;
 
-  export let skillName;
-  export let skillDetail;
+  skillModalState.subscribe(state => {
+    isOpen = state;
+  });
 
-  const unsubscribe = skillModalState.subscribe(state => {
-		isOpen = state;
-	});
+  skillDetail.subscribe(details => {
+    detail = details;
+  })
 
   const handleKeyup = ({ key }) => {
     if (isOpen && key === 'Escape') {
@@ -34,8 +36,10 @@
 {#if isOpen}
   <div class="skill-modal-bg" on:click={handleOuterClick} bind:this={background}>
     <div class="skill-modal-container">
-      <p>{skillName}</p>
-      <span>{skillDetail}</span>
+      <p>{detail.title}</p>
+      {#each detail.body as body}
+        <span class="skill-detail">{body}</span>
+      {/each}
     </div>
   </div>
 {/if}
@@ -61,5 +65,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 999;
+  }
+
+  .skill-detail {
+    display: block;
   }
 </style>

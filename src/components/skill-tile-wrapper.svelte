@@ -10,13 +10,13 @@
 </script>
 
 <div class="skill-tile-wrapper">
-  <SkillTile imgSrc={Kicad} textTitle="KiCad" textBody="KiCadを使用した回路・基板設計" />
-  <SkillTile imgSrc={React} textTitle="React" textBody="" />
-  <SkillTile imgSrc={CommonLisp} textTitle="Common Lisp" textBody="ﾁｮｯﾄﾀﾞｹ" />
-  <SkillTile imgSrc={Svelte} textTitle="Svelte" textBody="ちょっとだけ" />
-  <SkillTile imgSrc={Kotlin} textTitle="Kotlin" textBody="初歩的なアプリ作成" />
-  <SkillTile imgSrc={Ruby} textTitle="Ruby" textBody="基本文法のみ" />
-  <SkillTile imgSrc={Python} textTitle="Python" textBody="基本文法のみ" />
+  <SkillTile imgSrc={Kicad} textTitle="KiCad" textBody={["回路設計", "実体配線"]} />
+  <SkillTile imgSrc={React} textTitle="React" textBody={["SPAの作成"]} />
+  <SkillTile imgSrc={CommonLisp} textTitle="Common Lisp" textBody={["ﾁｮｯﾄﾀﾞｹ"]} />
+  <SkillTile imgSrc={Svelte} textTitle="Svelte" textBody={["SPAの作成", "SapparのSSR実装"]} />
+  <SkillTile imgSrc={Kotlin} textTitle="Kotlin" textBody={["簡単なAndroidアプリの実装"]} />
+  <SkillTile imgSrc={Ruby} textTitle="Ruby" textBody={["基本文法のみ", "Slack botの作成"]} />
+  <SkillTile imgSrc={Python} textTitle="Python" textBody={["基本文法のみ", "Slack botの作成", "Twitter Botの作成"]} />
 </div>
 
 <style>
