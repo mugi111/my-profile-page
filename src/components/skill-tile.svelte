@@ -16,7 +16,6 @@
   <div class="img-div">
     <img class="tile-img" alt="tile-img" {src} />
   </div>
-  <p class="text-title-p">{textTitle}</p>
 </div>
 
 <style>
@@ -31,9 +30,9 @@
 
   .img-div {
     display: table-cell;
-    width: 250px;
-    height: 160px;
-    padding: 8px;
+    width: 220px;
+    height: 220px;
+    padding: 15px;
     border-radius: 5px;
     background-color: white;
     text-align: center;
@@ -45,10 +44,5 @@
     height: auto;
     max-width: 100%;
     max-height: 100%;
-  }
-
-  .text-title-p {
-    font-weight: bold;
-    font-size: 20px;
   }
 </style>
