@@ -7,6 +7,7 @@
   import Kotlin from "../assets/kotlin-logo.png";
   import Ruby from "../assets/ruby-logo.png";
   import Python from "../assets/python-logo.png";
+  import Golang from "../assets/go-logo.png";
   import Unity from "../assets/unity-logo.png";
 </script>
 
@@ -45,5 +46,9 @@
     imgSrc={Python}
     textTitle="Python"
     textBody={['基本文法のみ', 'Slack botの作成', 'Twitter Botの作成']} />
+  <SkillTile
+    imgSrc={Golang}
+    textTitle="Go"
+    textBody={['チュートリアル', 'gin']} />
   <SkillTile imgSrc={Unity} textTitle="Unity3D" textBody={['基礎的な開発']} />
 </div>
