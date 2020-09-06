@@ -5,21 +5,12 @@
   import InstagramIcon from "../assets/h-t-instagram.jpg";
 </script>
 
-<h2 class="title-about">About</h2>
-<div class="icon-list">
-  <img class="twitter-icon profile-icon" alt="twitter-github-qiita" src={TwitterIcon} />
-  <img class="facebook-icon profile-icon" alt="facebook" src={FacebookIcon} />
-  <img class="instagram-icon profile-icon" alt="instagram" src={InstagramIcon} />
-</div>
-<AboutList />
-
 <style>
   .title-about {
     color: silver;
     font-size: 2em;
     border-bottom: 3px dotted blue;
   }
-
   .profile-icon {
     height: 150px;
     width: 150px;
@@ -27,3 +18,17 @@
     border-radius: 75px;
   }
 </style>
+
+<h2 class="title-about">About</h2>
+<div class="icon-list">
+  <img
+    class="twitter-icon profile-icon"
+    alt="twitter-github-qiita"
+    src={TwitterIcon} />
+  <img class="facebook-icon profile-icon" alt="facebook" src={FacebookIcon} />
+  <img
+    class="instagram-icon profile-icon"
+    alt="instagram"
+    src={InstagramIcon} />
+</div>
+<AboutList />

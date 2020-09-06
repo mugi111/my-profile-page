@@ -1,7 +1,3 @@
-<div class="header">
-  <small class="copyright">© 2020 Takumi Hirunuma</small>
-</div>
-
 <style>
   .header {
     width: 100%;
@@ -12,8 +8,11 @@
     background-color: black;
     z-index: 100;
   }
-
   .copyright {
-    color: silver
+    color: silver;
   }
 </style>
+
+<div class="header">
+  <small class="copyright">© 2020 Takumi Hirunuma</small>
+</div>

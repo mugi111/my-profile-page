@@ -3,10 +3,6 @@
   import SkillModal from "./skill-modal";
 </script>
 
-<h2 class="title-skill">Skill</h2>
-<SkillTileWrapper />
-<SkillModal />
-
 <style>
   .title-skill {
     color: silver;
@@ -14,3 +10,7 @@
     border-bottom: 3px dotted blue;
   }
 </style>
+
+<h2 class="title-skill">Skill</h2>
+<SkillTileWrapper />
+<SkillModal />
