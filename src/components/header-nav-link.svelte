@@ -1,3 +1,8 @@
+<script>
+  import { scrollto } from "svelte-scrollto";
+  import * as animateScroll from "svelte-scrollto";
+</script>
+
 <style>
   .header {
     width: 100%;
@@ -41,8 +46,8 @@
 </style>
 
 <div class="header">
-  <a class="header-link" href="#home">HOME</a>
-  <a class="header-link" href="#about">ABOUT</a>
-  <a class="header-link" href="#skill">SKILL</a>
-  <a class="header-link" href="#history">HISTORY</a>
+  <a class="header-link" on:click={() => animateScroll.scrollToTop()}>HOME</a>
+  <a class="header-link" use:scrollto={'#about'}>ABOUT</a>
+  <a class="header-link" use:scrollto={'#skill'}>SKILL</a>
+  <a class="header-link" use:scrollto={'#history'}>HISTORY</a>
 </div>
