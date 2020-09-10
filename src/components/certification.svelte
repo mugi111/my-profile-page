@@ -15,6 +15,14 @@
     width: auto;
     margin: 20px;
   }
+
+  @media (max-width: 900px) {
+    .official-logo {
+      height: 20vw;
+      width: 20vw;
+      margin: 3vw;
+    }
+  }
 </style>
 
 <h2 class="title-certification">Certificate</h2>
