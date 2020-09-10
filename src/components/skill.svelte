@@ -10,6 +10,6 @@
   }
 </style>
 
-<h2 class="title-skill">Skill</h2>
+<h2 class="title-skill">Skills</h2>
 <SkillTileWrapper />
 <SkillModal />
