@@ -9,13 +9,14 @@
 
 <style>
   main {
-    text-align: center;
+    text-align: left;
     padding: 1em;
     margin: 0 auto;
   }
 
   .home-div {
     height: calc(100vh - 45px);
+    width: 100%;
     display: inline-flex;
   }
   @media (max-width: 640px) {

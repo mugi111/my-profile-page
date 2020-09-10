@@ -9,7 +9,6 @@
   .title-about {
     color: silver;
     font-size: 2em;
-    border-bottom: 3px dotted blue;
   }
   .profile-icon {
     height: 150px;
