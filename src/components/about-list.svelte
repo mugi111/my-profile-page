@@ -29,26 +29,29 @@
     border-radius: 35px;
     background-color: white;
   }
+  .icons {
+    vertical-align: text-bottom;
+  }
 </style>
 
 <h2>HirunumaTakumi (mugi111)</h2>
 <p>
   <span class="about-key">
-    <i class="material-icons">cake</i>
+    <i class="material-icons icons">cake</i>
     Birthday :
   </span>
   <span class="about-value">1998 / 12 / 30</span>
 </p>
 <p>
   <span class="about-key">
-    <i class="material-icons">school</i>
+    <i class="material-icons icons">school</i>
     Education :
   </span>
   <span class="about-value">NIT, Tokyo College (2014 / 4 - 2019 / 3)</span>
 </p>
 <p>
   <span class="about-key">
-    <i class="material-icons">work</i>
+    <i class="material-icons icons">work</i>
     Experience :
   </span>
   <span class="about-value">FIXER inc. (2019 / 4 - )</span>
