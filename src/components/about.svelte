@@ -16,6 +16,14 @@
     margin: 25px;
     border-radius: 75px;
   }
+
+  @media (max-width: 650px) {
+    .profile-icon {
+      height: 20vw;
+      width: 20vw;
+      margin: 3vw;
+    }
+  }
 </style>
 
 <h2 class="title-about">About</h2>
