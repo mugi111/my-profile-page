@@ -46,8 +46,12 @@
 </style>
 
 <div class="header">
-  <a class="header-link" on:click={() => animateScroll.scrollToTop()}>HOME</a>
-  <a class="header-link" use:scrollto={'#about'}>ABOUT</a>
-  <a class="header-link" use:scrollto={'#skill'}>SKILL</a>
-  <a class="header-link" use:scrollto={'#history'}>HISTORY</a>
+  <a href="/" class="header-link" on:click={() => animateScroll.scrollToTop()}>
+    HOME
+  </a>
+  <a href="/" class="header-link" use:scrollto={'#about'}>ABOUT</a>
+  <a href="/" class="header-link" use:scrollto={'#skill'}>SKILL</a>
+  <a href="/" class="header-link" use:scrollto={'#certification'}>
+    CERTIFICATE
+  </a>
 </div>
