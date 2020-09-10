@@ -67,7 +67,10 @@
 
 <h3 class="title-framework">Framework</h3>
 <div class="skill-tile-wrapper">
-  <SkillTile imgSrc={React} textTitle="React" textBody={['SPAの作成']} />
+  <SkillTile
+    imgSrc={React}
+    textTitle="React"
+    textBody={['SPAの作成', 'Redux']} />
   <SkillTile imgSrc={Svelte} textTitle="Svelte" textBody={['SPAの作成']} />
   <SkillTile imgSrc={Sapper} textTitle="Sapper" textBody={[]} />
 </div>
@@ -78,5 +81,5 @@
     imgSrc={Kicad}
     textTitle="KiCad"
     textBody={['回路設計', '実体配線']} />
-  <SkillTile imgSrc={Unity} textTitle="Unity3D" textBody={['基礎的な開発']} />
+  <SkillTile imgSrc={Unity} textTitle="Unity3D" textBody={['基本的な開発']} />
 </div>

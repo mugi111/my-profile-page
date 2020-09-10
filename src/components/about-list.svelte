@@ -46,6 +46,13 @@
   </span>
   <span class="about-value">NIT, Tokyo College (2014 / 4 - 2019 / 3)</span>
 </p>
+<p>
+  <span class="about-key">
+    <i class="material-icons">work</i>
+    Experience :
+  </span>
+  <span class="about-value">FIXER inc. (2019 / 4 - )</span>
+</p>
 <a rel="noreferrer" target="_blank" href="https://github.com/mugi111">
   <img class="github-logo official-logo" alt="github-logo" src={Github} />
 </a>
