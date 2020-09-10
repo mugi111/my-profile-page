@@ -8,13 +8,20 @@
   .title-certification {
     color: silver;
     font-size: 2em;
-    border-bottom: 3px dotted blue;
   }
 
   .official-logo {
     height: 120px;
     width: auto;
     margin: 20px;
+  }
+
+  @media (max-width: 900px) {
+    .official-logo {
+      height: 20vw;
+      width: 20vw;
+      margin: 3vw;
+    }
   }
 </style>
 

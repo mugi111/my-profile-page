@@ -9,13 +9,20 @@
   .title-about {
     color: silver;
     font-size: 2em;
-    border-bottom: 3px dotted blue;
   }
   .profile-icon {
     height: 150px;
     width: 150px;
     margin: 25px;
     border-radius: 75px;
+  }
+
+  @media (max-width: 650px) {
+    .profile-icon {
+      height: 20vw;
+      width: 20vw;
+      margin: 3vw;
+    }
   }
 </style>
 

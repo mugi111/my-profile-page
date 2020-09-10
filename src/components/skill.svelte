@@ -7,10 +7,9 @@
   .title-skill {
     color: silver;
     font-size: 2em;
-    border-bottom: 3px dotted blue;
   }
 </style>
 
-<h2 class="title-skill">Skill</h2>
+<h2 class="title-skill">Skills</h2>
 <SkillTileWrapper />
 <SkillModal />

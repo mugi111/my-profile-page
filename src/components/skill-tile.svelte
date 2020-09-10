@@ -15,31 +15,33 @@
     width: 250px;
     height: 250px;
     border-radius: 5px;
+    padding: 10px;
     background-color: #f4f5f7;
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.2));
     margin: 10px;
   }
-  .img-div {
-    display: table-cell;
-    width: 220px;
-    height: 220px;
-    padding: 15px;
+  .img-span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
     border-radius: 5px;
     background-color: white;
     text-align: center;
     vertical-align: middle;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
-  .tile-img {
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
+  @media (max-width: 900px) {
+    .tile-frame {
+      width: 19vw;
+      height: 19vw;
+      margin: 10px;
+    }
   }
 </style>
 
 <div class="tile-frame" on:click={handleClickTile}>
-  <div class="img-div">
-    <img class="tile-img" alt="tile-img" {src} />
-  </div>
+  <span class="img-span" style="background-image: url('{src}')" />
 </div>

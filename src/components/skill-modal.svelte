@@ -63,7 +63,7 @@
     class="skill-modal-bg"
     on:click={handleOuterClick}
     bind:this={background}
-    transition:fade={{ duration: 200 }}>
+    transition:fade={{ duration: 100 }}>
     <div class="skill-modal-container">
       <p class="text-title-p">{detail.title}</p>
       {#each detail.body as body}
