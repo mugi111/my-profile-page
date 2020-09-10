@@ -21,7 +21,7 @@
     transition: 0.3s;
     position: relative;
     display: inline-block;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.2em;
   }
   .header-link::after {
     position: absolute;
