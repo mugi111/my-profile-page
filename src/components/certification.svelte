@@ -11,7 +11,7 @@
   }
 
   .official-logo {
-    height: 120px;
+    height: 200px;
     width: auto;
     margin: 20px;
   }
