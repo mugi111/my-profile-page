@@ -33,7 +33,7 @@
     background-size: contain;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 950px) {
     .tile-frame {
       width: 19vw;
       height: 19vw;
