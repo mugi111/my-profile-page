@@ -1,6 +1,6 @@
 <script>
   import WorksTile from "./works-tile";
-  import React from "../assets/react-logo.png";
+  import portfolio from "../assets/works-portfolio.png";
 </script>
 
 <style>
@@ -12,5 +12,12 @@
 
 <h2 class="title-works">Works</h2>
 <div>
-  <WorksTile imgSrc={React} textBody="123123" ghSrc="a" />
+  <WorksTile
+    imgSrc={portfolio}
+    textBody={['ポートフォリオ', '(Svelte, Sapper, Netlify)']}
+    ghSrc="https://github.com/mugi111/my-profile-page" />
+  <WorksTile
+    imgSrc={portfolio}
+    textBody={['ポートフォリオ', '(Svelte, Sapper, Netlify)']}
+    ghSrc="https://github.com/mugi111/my-profile-page" />
 </div>

@@ -30,12 +30,17 @@
     height: 50px;
     border-radius: 5px;
     margin: 3px;
-    background-color: white;
     text-align: center;
     vertical-align: middle;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
+  }
+  @media (max-width: 640px) {
+    .img-span {
+      width: 30px;
+      height: 30px;
+    }
   }
 </style>
 
