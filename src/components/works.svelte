@@ -12,5 +12,5 @@
 
 <h2 class="title-works">Works</h2>
 <div>
-  <WorksTile imgSrc={React} textBody="123123" />
+  <WorksTile imgSrc={React} textBody="123123" ghSrc="a" />
 </div>

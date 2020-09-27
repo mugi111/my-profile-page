@@ -1,14 +1,17 @@
 <script>
+  import WorksLinkList from "./works-link-list";
   export let imgSrc;
   export let textBody;
   export let ghSrc = null;
   export let npmSrc = null;
+  export let qiitaSrc = null;
   export let blogSrc = null;
   let src = imgSrc;
 </script>
 
 <style>
   .tile-frame {
+    display: inline-flex;
     width: calc(100% - 80px);
     border-radius: 5px;
     background-color: #f4f5f7;
@@ -28,9 +31,25 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
+  .works-content {
+    width: 100%;
+    padding: 10px;
+  }
+  .works-body {
+    display: flex;
+    width: 100%;
+    bottom: 5px;
+  }
 </style>
 
 <div class="tile-frame">
   <span class="img-span" style="background-image: url('{src}')" />
-  <span>{textBody}</span>
+  <div class="works-content">
+    <span class="works-body">{textBody}</span>
+    <WorksLinkList
+      _ghSrc={ghSrc}
+      _npmSrc={npmSrc}
+      _qiitaSrc={qiitaSrc}
+      _blogSrc={blogSrc} />
+  </div>
 </div>
