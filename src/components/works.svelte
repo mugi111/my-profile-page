@@ -1,6 +1,7 @@
 <script>
   import WorksTile from "./works-tile";
   import portfolio from "../assets/works-portfolio.png";
+  import reactGhRepos from "../assets/works-react-gh-repos.png";
 </script>
 
 <style>
@@ -17,7 +18,8 @@
     textBody={['ポートフォリオ', '(Svelte, Sapper, Netlify)']}
     ghSrc="https://github.com/mugi111/my-profile-page" />
   <WorksTile
-    imgSrc={portfolio}
-    textBody={['ポートフォリオ', '(Svelte, Sapper, Netlify)']}
-    ghSrc="https://github.com/mugi111/my-profile-page" />
+    imgSrc={reactGhRepos}
+    textBody={['Githubのピン留めみたいにリポジトリを表示するReactコンポーネント', '(React, Typescript)']}
+    ghSrc="https://github.com/mugi111/react-github-repos"
+    npmSrc="https://www.npmjs.com/package/react-github-repos" />
 </div>
