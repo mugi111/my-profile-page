@@ -4,6 +4,7 @@
   import About from "../components/about";
   import Skill from "../components/skill";
   import Certification from "../components/certification";
+  import Works from "../components/works";
   import Footer from "../components/footer";
 </script>
 
@@ -43,6 +44,9 @@
   </div>
   <div class="skill-div" id="skill">
     <Skill />
+  </div>
+  <div class="works-div" id="works">
+    <Works />
   </div>
   <div class="certification" id="certification">
     <Certification />
