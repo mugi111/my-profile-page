@@ -50,6 +50,7 @@
     HOME
   </a>
   <a href="/" class="header-link" use:scrollto={'#about'}>ABOUT</a>
+  <a href="/" class="header-link" use:scrollto={'#works'}>WORKS</a>
   <a href="/" class="header-link" use:scrollto={'#certification'}>
     CERTIFICATE
   </a>
