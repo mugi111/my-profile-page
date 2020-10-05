@@ -12,8 +12,8 @@
 
 <style>
   .tile-frame {
-    width: 250px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     border-radius: 5px;
     padding: 10px;
     background-color: #f4f5f7;

@@ -4,6 +4,7 @@
   import About from "../components/about";
   import Skill from "../components/skill";
   import Certification from "../components/certification";
+  import OssContribute from "../components/oss-contribute";
   import Footer from "../components/footer";
 </script>
 
@@ -41,11 +42,14 @@
   <div class="about-div" id="about">
     <About />
   </div>
+  <div class="certification" id="certification">
+    <Certification />
+  </div>
   <div class="skill-div" id="skill">
     <Skill />
   </div>
-  <div class="certification" id="certification">
-    <Certification />
+  <div class="oss-div" id="oss">
+    <OssContribute />
   </div>
 </main>
 <Footer />
