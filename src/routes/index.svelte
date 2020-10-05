@@ -4,11 +4,8 @@
   import About from "../components/about";
   import Skill from "../components/skill";
   import Certification from "../components/certification";
-<<<<<<< HEAD
   import OssContribute from "../components/oss-contribute";
-=======
   import Works from "../components/works";
->>>>>>> 8a835fa43220720a3d911e5594df545bfef03331
   import Footer from "../components/footer";
 </script>
 
@@ -49,19 +46,14 @@
   <div class="certification" id="certification">
     <Certification />
   </div>
-  <div class="skill-div" id="skill">
-    <Skill />
-  </div>
-<<<<<<< HEAD
-  <div class="oss-div" id="oss">
-    <OssContribute />
-=======
   <div class="works-div" id="works">
     <Works />
   </div>
-  <div class="certification" id="certification">
-    <Certification />
->>>>>>> 8a835fa43220720a3d911e5594df545bfef03331
+  <div class="skill-div" id="skill">
+    <Skill />
+  </div>
+  <div class="oss-div" id="oss">
+    <OssContribute />
   </div>
 </main>
 <Footer />
