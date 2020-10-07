@@ -18,4 +18,6 @@
   <li>@MicrosoftDocs/azure-docs.ja-jp : Azureの日本語ドキュメント</li>
   <li>@box/box-windows-sdk-v2 : boxのWindows用SDK</li>
   <li>bestguy/sveltestrap : svelteのBootstrapコンポーネント</li>
+  <li>@primo-app/primo : svelte製の静的サイトジェネレータ</li>
+  <li>@netlify/cli : netlifyのcliツール</li>
 </ol>
