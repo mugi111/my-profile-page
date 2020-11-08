@@ -3,10 +3,13 @@
   import npmIco from "../assets/works-npm.png";
   import qiitaIco from "../assets/works-qiita.png";
   import blogIco from "../assets/works-blog.png";
+  import linkIco from "../assets/works-link.png";
+  export let _linkSrc = null;
   export let _ghSrc = null;
   export let _npmSrc = null;
   export let _qiitaSrc = null;
   export let _blogSrc = null;
+  let linkSrc = _linkSrc;
   let ghSrc = _ghSrc;
   let npmSrc = _npmSrc;
   let qiitaSrc = _qiitaSrc;
@@ -34,6 +37,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
+    cursor: pointer;
   }
   @media (max-width: 640px) {
     .img-span {
@@ -44,6 +48,12 @@
 </style>
 
 <div class="link-list">
+  {#if linkSrc}
+    <span
+      class="img-span"
+      on:click={() => handleClickTile(linkSrc)}
+      style="background-image: url('{linkIco}')" />
+  {/if}
   {#if ghSrc}
     <span
       class="img-span"

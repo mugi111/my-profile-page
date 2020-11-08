@@ -2,6 +2,7 @@
   import WorksLinkList from "./works-link-list";
   export let imgSrc;
   export let textBody;
+  export let linkSrc = null;
   export let ghSrc = null;
   export let npmSrc = null;
   export let qiitaSrc = null;
@@ -51,10 +52,9 @@
 <div class="tile-frame">
   <span class="img-span" style="background-image: url('{src}')" />
   <div class="works-content">
-    {#each textBody as body}
-      <span class="works-body">{body}</span>
-    {/each}
+    {#each textBody as body}<span class="works-body">{body}</span>{/each}
     <WorksLinkList
+      _linkSrc={linkSrc}
       _ghSrc={ghSrc}
       _npmSrc={npmSrc}
       _qiitaSrc={qiitaSrc}
