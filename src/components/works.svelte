@@ -28,6 +28,6 @@
   <WorksTile
     imgSrc={JsonFormatter}
     textBody={['Jsonを作るWebApp', '(React, Recoil, Typescript)']}
-    link="https://mugi111.github.io/JsonFormatter/"
+    linkSrc="https://mugi111.github.io/JsonFormatter/"
     ghSrc="https://github.com/mugi111/JsonFormatter" />
 </div>
