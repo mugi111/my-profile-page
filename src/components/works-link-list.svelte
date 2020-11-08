@@ -1,5 +1,4 @@
 <script>
-  import { skillModalState, skillDetail } from "../stores.js";
   import githubIco from "../assets/works-github.png";
   import npmIco from "../assets/works-npm.png";
   import qiitaIco from "../assets/works-qiita.png";
@@ -12,7 +11,7 @@
   let npmSrc = _npmSrc;
   let qiitaSrc = _qiitaSrc;
   let blogSrc = _blogSrc;
-  const handleClickTile = src => {
+  const handleClickTile = (src) => {
     window.open(src);
   };
 </script>
