@@ -24,6 +24,7 @@ module.exports = {
             loader: "svelte-loader",
             options: {
               dev,
+              preprocess: require('svelte-preprocess')({ scss: true }),
               hydratable: true,
               hotReload: false, // pending https://github.com/sveltejs/svelte/issues/2377
             },
@@ -69,6 +70,7 @@ module.exports = {
               generate: "ssr",
               hydratable: true,
               dev,
+              preprocess: require('svelte-preprocess')({ scss: true }),
             },
           },
         },
