@@ -2,7 +2,7 @@
   import TwitterAvatar from "../assets/mg-twitter.jpg";
   import FacebookAvatar from "../assets/h-t-facebook.jpg";
   import InstagramAvatar from "../assets/h-t-instagram.jpg";
-  import { FACEBOOK, TWITTER } from "../types";
+  import { FACEBOOK, INSTAGRAM, TWITTER } from "../types";
   export const type = TWITTER;
 </script>
 
