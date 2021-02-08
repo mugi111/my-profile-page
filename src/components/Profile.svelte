@@ -1,7 +1,7 @@
 <script lang="typescript">
-  import { AvatarType } from "../types";
-  import ProfileImage from "./profile-image.svelte";
-  const type: AvatarType = AvatarType.twitter;
+  import { TWITTER } from "../types";
+  import ProfileImage from "./ProfileImage.svelte";
+  const type = TWITTER;
 </script>
 
 <div>
