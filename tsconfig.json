@@ -2,11 +2,11 @@
   "compilerOptions": {
     "typeRoots": [
       "node_modules/@types",
-      "types"
+      "src/@types"
     ],
   }, 
   "include": [
     "src/**/*",
-    "types/**/*"
+    "src/@types/**/*"
   ]
 }
