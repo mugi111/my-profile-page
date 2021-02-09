@@ -16,7 +16,11 @@
   {/if}
 </div>
 
-<style lang="scss">
+<style>
+  .avatar {
+    text-align: center;
+  }
+
   .avatar-img {
     width: 80px;
     border-radius: 50%;
