@@ -6,5 +6,9 @@
 
 <div class="profile-container">
   <ProfileImage type={$snsHover} />
-  <SnsButtons />
+  <SnsButtons
+    twitterLink="https://twitter.com/mg111_"
+    facebookLink="https://www.facebook.com/takumi.hirunuma"
+    instagramLink="https://www.instagram.com/mgfm1001/"
+  />
 </div>
