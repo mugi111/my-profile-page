@@ -1,9 +1,10 @@
 <script lang="typescript">
-  import { TWITTER } from "../types";
+  import { snsHover } from "../stores";
   import ProfileImage from "./ProfileImage.svelte";
-  const type = TWITTER;
+  import SnsButtons from "./SnsButtons.svelte";
 </script>
 
 <div>
-  <ProfileImage {type} />
+  <ProfileImage type={$snsHover} />
+  <SnsButtons />
 </div>
