@@ -1,5 +1,7 @@
 import { writable } from "svelte/store";
-import { TWITTER } from "../types";
+import { FACEBOOK, INSTAGRAM, TWITTER } from "../types";
 
 export const snsHover = writable(TWITTER);
-export const setSnsHover = (sns) => snsHover.set(sns);
+export const snsHoverSetTwitter = () => snsHover.set(TWITTER);
+export const snsHoverSetFacebook = () => snsHover.set(FACEBOOK);
+export const snsHoverSetInstagram = () => snsHover.set(INSTAGRAM);

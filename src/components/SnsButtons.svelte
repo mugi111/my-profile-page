@@ -5,17 +5,34 @@
   import FacebookIconGrey from "../assets/facebook-logo-grey.svg";
   import InstagramIcon from "../assets/instagram-logo.svg";
   import InstagramIconGrey from "../assets/instagram-logo-grey.svg";
+  import {
+    snsHoverSetFacebook,
+    snsHoverSetInstagram,
+    snsHoverSetTwitter,
+  } from "../stores";
   export let twitterLink;
   export let facebookLink;
   export let instagramLink;
 </script>
 
 <div class="sns-icons">
-  <a href={twitterLink} target="_blank" class="sns-link">
+  <a
+    href={twitterLink}
+    target="_blank"
+    on:mouseover={snsHoverSetTwitter}
+    on:mouseout={snsHoverSetTwitter}
+    class="sns-link"
+  >
     <img alt="twitter-logo" src={TwitterIconGrey} class="sns-icon" />
     <img alt="twitter-logo-active" src={TwitterIcon} class="sns-icon active" />
   </a>
-  <a href={facebookLink} target="_blank" class="sns-link">
+  <a
+    href={facebookLink}
+    target="_blank"
+    on:mouseover={snsHoverSetFacebook}
+    on:mouseout={snsHoverSetTwitter}
+    class="sns-link"
+  >
     <img alt="facebook-logo" src={FacebookIconGrey} class="sns-icon" />
     <img
       alt="facebook-logo-active"
@@ -23,7 +40,13 @@
       class="sns-icon active"
     />
   </a>
-  <a href={instagramLink} target="_blank" class="sns-link">
+  <a
+    href={instagramLink}
+    target="_blank"
+    on:mouseover={snsHoverSetInstagram}
+    on:mouseout={snsHoverSetTwitter}
+    class="sns-link"
+  >
     <img alt="instagram-logo" src={InstagramIconGrey} class="sns-icon" />
     <img
       alt="instagram-logo-active"
@@ -56,7 +79,7 @@
     left: 0;
     top: 0;
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.3s;
   }
 
   .sns-link:hover .active {

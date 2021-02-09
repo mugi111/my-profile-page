@@ -1,5 +1,7 @@
-import { snsHover, setSnsHover } from "./sns-hover";
+import { snsHover, snsHoverSetTwitter, snsHoverSetFacebook, snsHoverSetInstagram } from "./sns-hover";
 export {
   snsHover,
-  setSnsHover
+  snsHoverSetTwitter,
+  snsHoverSetFacebook,
+  snsHoverSetInstagram
 }
