@@ -10,8 +10,12 @@
 
 <div class="tech-icons">
   <a href={githubLink} target="_blank" class="tech-link">
-    <img alt="github-logo" src={GithubIconGrey} class="tech-icon" />
-    <img alt="github-logo-active" src={GithubIcon} class="tech-icon active" />
+    <img alt="github-logo" src={GithubIconGrey} class="tech-icon github" />
+    <img
+      alt="github-logo-active"
+      src={GithubIcon}
+      class="tech-icon github active"
+    />
   </a>
   <!-- <a
     href={qiitaLink}
@@ -35,6 +39,11 @@
 
   .tech-icon {
     width: 30px;
+    background-color: white;
+  }
+
+  .github {
+    border-radius: 50%;
   }
 
   .tech-link {
