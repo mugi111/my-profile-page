@@ -12,5 +12,6 @@
   .sidebar-content {
     background-color: #f0eee2;
     overflow-y: hidden;
+    height: 100vh;
   }
 </style>
