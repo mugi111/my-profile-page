@@ -11,5 +11,6 @@
 <style>
   .sidebar-content {
     background-color: #f0eee2;
+    overflow-y: hidden;
   }
 </style>

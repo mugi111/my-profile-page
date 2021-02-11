@@ -11,16 +11,18 @@
 <style>
   .nav-container {
     background-color: inherit;
+    text-align: center;
+    height: 100vh;
   }
 
   .nav-content {
     padding: 10px 20px;
     display: block;
-    height: 100%;
     z-index: 1;
     text-decoration: none;
     color: #333333;
     cursor: pointer;
+    text-align: left;
   }
 
   .nav-content:hover {

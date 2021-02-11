@@ -4,15 +4,22 @@
 
 <header />
 <main>
-  <Sidebar />
+  <div class="sidebar">
+    <Sidebar />
+  </div>
+  <div class="body" />
 </main>
 
 <style>
   main {
     text-align: left;
-    padding: 1em;
     margin: 0 auto;
   }
+
+  .sidebar {
+    position: sticky;
+  }
+
   @media (max-width: 640px) {
     header {
       display: none;
