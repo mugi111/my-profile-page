@@ -65,6 +65,7 @@
   .sns-icon {
     border-radius: 50%;
     width: 30px;
+    background-color: white;
   }
 
   .sns-link {

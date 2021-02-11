@@ -1,10 +1,10 @@
 <script>
-  import Profile from "../components/profile.svelte";
+  import Sidebar from "../components/Sidebar.svelte";
 </script>
 
 <header />
 <main>
-  <Profile />
+  <Sidebar />
 </main>
 
 <style>
