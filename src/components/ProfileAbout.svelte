@@ -9,6 +9,7 @@
 <style>
   .profile-about {
     text-align: center;
+    margin: 10px;
   }
 
   .profile-about-job {

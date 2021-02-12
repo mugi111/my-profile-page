@@ -12,7 +12,6 @@
   .nav-container {
     background-color: inherit;
     text-align: center;
-    height: 100vh;
   }
 
   .nav-content {
