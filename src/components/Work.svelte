@@ -6,25 +6,33 @@
 <h2>Work</h2>
 <WorkElement
   image={workPortfolio}
-  name="Portfolio"
+  name="portfolio"
+  description="ポートフォリオ"
+  techs={["Javascript", "Svelte", "Sapper"]}
   page="https://portfolio.mugi.cat/"
   github="https://github.com/mugi111/my-profile-page/"
 />
 <WorkElement
   image={workPortfolio}
-  name="Portfolio"
+  name="portfolio"
+  description="ポートフォリオ"
+  techs={["Javascript", "Svelte", "Sapper"]}
   page="https://portfolio.mugi.cat/"
   github="https://github.com/mugi111/my-profile-page/"
 />
 <WorkElement
   image={workPortfolio}
-  name="Portfolio"
+  name="portfolio"
+  description="ポートフォリオ"
+  techs={["Javascript", "Svelte", "Sapper"]}
   page="https://portfolio.mugi.cat/"
   github="https://github.com/mugi111/my-profile-page/"
 />
 <WorkElement
   image={workPortfolio}
-  name="Portfolio"
+  name="portfolio"
+  description="ポートフォリオ"
+  techs={["Javascript", "Svelte", "Sapper"]}
   page="https://portfolio.mugi.cat/"
   github="https://github.com/mugi111/my-profile-page/"
 />

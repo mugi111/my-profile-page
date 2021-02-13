@@ -6,6 +6,7 @@
   export let image;
   export let name;
   export let description;
+  export let techs;
   export let page;
   export let npm;
   export let github;
@@ -15,12 +16,14 @@
   <div class="work-element-img-container">
     <img src={image} alt={`${name}-img`} class="work-element-img" />
   </div>
-  <span class="work-element-name">
-    {name}
-  </span>
-  <span class="work-element-desc">
+  <div class="work-element-desc">
     {description}
-  </span>
+  </div>
+  {#each techs as tech}
+    <li class="work-element-tech">
+      {tech}
+    </li>
+  {/each}
   <div class="work-element-link">
     {#if page != null}
       <a href={page}>
@@ -42,12 +45,12 @@
 
 <style>
   .work-element-container {
-    display: block;
+    display: inline-block;
     position: relative;
     padding: 15px;
     margin: 10px;
     width: 200px;
-    height: 300px;
+    height: 250px;
     border-radius: 10px;
     background: #ffffff;
     box-shadow: 5px 5px 10px #a6a6a6, -5px -5px 10px #ffffff;
@@ -55,12 +58,22 @@
 
   .work-element-img-container {
     width: 100%;
+    margin-bottom: 10px;
     height: fit-content;
     text-align: center;
   }
 
   .work-element-img {
     width: 120px;
+  }
+
+  .work-element-desc {
+    margin-bottom: 5px;
+  }
+
+  .work-element-tech {
+    list-style: none;
+    font-size: 14px;
   }
 
   .work-element-link {
