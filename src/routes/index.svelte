@@ -29,6 +29,7 @@
     top: 0px;
     position: sticky;
     height: 100vh;
+    width: 250px;
     background-color: #f0eee2;
   }
 
@@ -39,6 +40,7 @@
   @media (max-width: 640px) {
     .sidebar {
       display: block;
+      width: 100vw;
     }
   }
   @media (min-width: 640px) {
