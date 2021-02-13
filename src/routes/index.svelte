@@ -26,7 +26,10 @@
   }
 
   .sidebar {
+    top: 0px;
     position: sticky;
+    height: 100vh;
+    background-color: #f0eee2;
   }
 
   .body {
@@ -34,8 +37,8 @@
   }
 
   @media (max-width: 640px) {
-    header {
-      display: none;
+    .sidebar {
+      display: block;
     }
   }
   @media (min-width: 640px) {
