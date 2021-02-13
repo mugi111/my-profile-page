@@ -1,6 +1,7 @@
 <script>
   import About from "../components/About.svelte";
   import Sidebar from "../components/Sidebar.svelte";
+  import SkillSet from "../components/SkillSet.svelte";
 </script>
 
 <header />
@@ -11,6 +12,9 @@
   <div class="body">
     <div class="about">
       <About />
+    </div>
+    <div class="skillset">
+      <SkillSet />
     </div>
   </div>
 </main>
@@ -23,6 +27,10 @@
 
   .sidebar {
     position: sticky;
+  }
+
+  .body {
+    padding: 30px;
   }
 
   @media (max-width: 640px) {

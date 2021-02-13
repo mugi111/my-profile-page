@@ -7,7 +7,7 @@
 
 <div class="meter-container">
   {#each new Array(years) as _}
-    <div class="meter-square" />
+    <span class="meter-square" />
   {/each}
 </div>
 

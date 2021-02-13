@@ -51,12 +51,8 @@
     vertical-align: text-bottom;
   }
 
-  .about-container {
-    padding: 50px;
-  }
-
   .about-content-container {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   .about-content {
