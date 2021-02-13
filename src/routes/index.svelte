@@ -2,6 +2,7 @@
   import About from "../components/About.svelte";
   import Sidebar from "../components/Sidebar.svelte";
   import SkillSet from "../components/SkillSet.svelte";
+  import Work from "../components/Work.svelte";
 </script>
 
 <header />
@@ -10,11 +11,14 @@
     <Sidebar />
   </div>
   <div class="body">
-    <div class="about">
+    <div class="about content">
       <About />
     </div>
-    <div class="skillset">
+    <div class="skillset content">
       <SkillSet />
+    </div>
+    <div class="work content">
+      <Work />
     </div>
   </div>
 </main>
