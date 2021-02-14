@@ -5,6 +5,14 @@
 </script>
 
 <h2>Skill Set</h2>
-<Language />
-<Framework />
-<Software />
+<div class="skillsets">
+  <Language />
+  <Framework />
+  <Software />
+</div>
+
+<style>
+  .skillsets {
+    margin-bottom: 150px;
+  }
+</style>

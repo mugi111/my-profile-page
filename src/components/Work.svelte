@@ -38,5 +38,6 @@
 <style>
   .works {
     display: flex;
+    margin-bottom: 150px;
   }
 </style>

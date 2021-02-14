@@ -47,6 +47,10 @@
 </div>
 
 <style>
+  .about-container {
+    margin-bottom: 150px;
+  }
+
   .icon {
     vertical-align: text-bottom;
   }
