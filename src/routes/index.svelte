@@ -12,16 +12,16 @@
     <Sidebar />
   </div>
   <div class="body">
-    <div class="about content">
+    <div class="about content" id="about">
       <About />
     </div>
-    <div class="skillset content">
+    <div class="skillset content" id="skillset">
       <SkillSet />
     </div>
-    <div class="work content">
+    <div class="work content" id="work">
       <Work />
     </div>
-    <div class="certification content">
+    <div class="certification content" id="certification">
       <Certification />
     </div>
   </div>

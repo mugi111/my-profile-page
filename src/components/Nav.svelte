@@ -5,7 +5,7 @@
   <a href="#about" class="nav-content">
     <span>About</span>
   </a>
-  <a href="#skill-set" class="nav-content">
+  <a href="#skillset" class="nav-content">
     <span>Skill Set</span>
   </a>
   <a href="#work" class="nav-content">
