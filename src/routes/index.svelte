@@ -1,5 +1,6 @@
 <script>
   import About from "../components/About.svelte";
+  import Certification from "../components/Certification.svelte";
   import Sidebar from "../components/Sidebar.svelte";
   import SkillSet from "../components/SkillSet.svelte";
   import Work from "../components/Work.svelte";
@@ -19,6 +20,9 @@
     </div>
     <div class="work content">
       <Work />
+    </div>
+    <div class="certification content">
+      <Certification />
     </div>
   </div>
 </main>
