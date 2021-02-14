@@ -37,7 +37,7 @@
     top: 0px;
     position: sticky;
     height: 100vh;
-    width: 250px;
+    width: 230px;
     background-color: #f0eee2;
   }
 

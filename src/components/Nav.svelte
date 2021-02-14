@@ -2,10 +2,18 @@
 </script>
 
 <div class="nav-container">
-  <a href="#about" class="nav-content"> About </a>
-  <a href="#skill-set" class="nav-content"> Skill Set </a>
-  <a href="work" class="nav-content"> Work </a>
-  <a href="certification" class="nav-content"> Certification </a>
+  <a href="#about" class="nav-content">
+    <span>About</span>
+  </a>
+  <a href="#skill-set" class="nav-content">
+    <span>Skill Set</span>
+  </a>
+  <a href="#work" class="nav-content">
+    <span>Work</span>
+  </a>
+  <a href="#certification" class="nav-content">
+    <span>Certification</span>
+  </a>
 </div>
 
 <style>
@@ -24,7 +32,16 @@
     text-align: left;
   }
 
-  .nav-content:hover {
+  .nav-content:hover span {
     color: #777777;
+    background: linear-gradient(
+      90deg,
+      rgba(0, 196, 255, 1) 0%,
+      rgba(255, 0, 125, 1) 50%,
+      rgba(255, 199, 0, 1) 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 12%;
+    background-position: center;
   }
 </style>
