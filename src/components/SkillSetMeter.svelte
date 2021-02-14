@@ -15,6 +15,7 @@
   .meter-container {
     display: flex;
     margin: 5px 0px;
+    height: 20px;
   }
 
   .meter-square {
