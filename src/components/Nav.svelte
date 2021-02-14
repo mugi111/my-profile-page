@@ -20,6 +20,7 @@
   .nav-container {
     background-color: inherit;
     text-align: center;
+    width: 200px;
   }
 
   .nav-content {
