@@ -1,17 +1,18 @@
 <script>
+  import { scrollto } from "svelte-scrollto";
 </script>
 
 <div class="nav-container">
-  <a href="#about" class="nav-content">
+  <a href="/" class="nav-content" use:scrollto={"#about"}>
     <span>About</span>
   </a>
-  <a href="#skillset" class="nav-content">
+  <a href="/" class="nav-content" use:scrollto={"#skillset"}>
     <span>Skill Set</span>
   </a>
-  <a href="#work" class="nav-content">
+  <a href="/" class="nav-content" use:scrollto={"#work"}>
     <span>Work</span>
   </a>
-  <a href="#certification" class="nav-content">
+  <a href="/" class="nav-content" use:scrollto={"#certification"}>
     <span>Certification</span>
   </a>
 </div>
