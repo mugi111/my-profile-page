@@ -24,6 +24,9 @@
     <div class="certification content" id="certification">
       <Certification />
     </div>
+    <footer>
+      <span class="footer">© 2021 Takumi Hirunuma</span>
+    </footer>
   </div>
 </main>
 
@@ -31,6 +34,10 @@
   main {
     text-align: left;
     margin: 0 auto;
+  }
+
+  footer {
+    text-align: center;
   }
 
   .sidebar {
