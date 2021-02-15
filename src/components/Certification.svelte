@@ -25,8 +25,12 @@
 </div>
 
 <style>
+  h2 {
+    font-size: 46px;
+  }
+
   .certifications {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
   }
 </style>

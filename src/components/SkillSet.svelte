@@ -12,6 +12,10 @@
 </div>
 
 <style>
+  h2 {
+    font-size: 46px;
+  }
+
   .skillsets {
     margin-bottom: 150px;
   }

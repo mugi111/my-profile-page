@@ -47,6 +47,10 @@
 </div>
 
 <style>
+  h2 {
+    font-size: 46px;
+  }
+
   .about-container {
     margin-bottom: 150px;
   }

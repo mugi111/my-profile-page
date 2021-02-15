@@ -36,6 +36,10 @@
 </div>
 
 <style>
+  h2 {
+    font-size: 46px;
+  }
+
   .works {
     display: flex;
     margin-bottom: 150px;
