@@ -1,13 +1,12 @@
 <script>
-  import About from "./About.svelte";
-  import Framework from "./Framework.svelte";
-
+  export let isWork;
   export let years;
+  const squareClass = isWork ? "meter-square-work" : "meter-square-hobby";
 </script>
 
 <div class="meter-container">
   {#each new Array(years) as _}
-    <span class="meter-square" />
+    <span class={squareClass} />
   {/each}
 </div>
 
@@ -18,7 +17,15 @@
     height: 20px;
   }
 
-  .meter-square {
+  .meter-square-work {
+    height: 20px;
+    width: 10px;
+    margin: 1px;
+    border-radius: 3px;
+    background-color: #ff007d;
+  }
+
+  .meter-square-hobby {
     height: 20px;
     width: 10px;
     margin: 1px;

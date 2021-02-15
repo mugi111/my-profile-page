@@ -20,8 +20,8 @@
   <div class="skillset-years">{work} {hobby}</div>
   <div class="skillset-meter">
     <span>
-      <SkillSetMeter years={inWork} />
-      <SkillSetMeter years={inHobby} />
+      <SkillSetMeter years={inWork} isWork={true} />
+      <SkillSetMeter years={inHobby} isWork={false} />
     </span>
   </div>
 </div>
