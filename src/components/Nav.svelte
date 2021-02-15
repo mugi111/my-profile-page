@@ -46,4 +46,10 @@
     background-size: 100% 12%;
     background-position: center;
   }
+
+  @media (max-width: 640px) {
+    .nav-container {
+      display: none;
+    }
+  }
 </style>

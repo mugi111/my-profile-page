@@ -47,6 +47,7 @@
   .work-element-container {
     display: inline-block;
     position: relative;
+    vertical-align: top;
     padding: 15px;
     margin: 10px;
     width: 200px;

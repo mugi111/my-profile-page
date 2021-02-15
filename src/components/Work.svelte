@@ -41,7 +41,7 @@
   }
 
   .works {
-    display: flex;
+    display: block;
     margin-bottom: 150px;
   }
 </style>
