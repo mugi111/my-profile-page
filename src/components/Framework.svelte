@@ -15,6 +15,10 @@
 </div>
 
 <style>
+  h3 {
+    text-shadow: 5px 5px 10px #a6a6a6, -5px -5px 10px #ffffff;
+  }
+
   .framework-container {
     display: flex;
     flex-wrap: wrap;
