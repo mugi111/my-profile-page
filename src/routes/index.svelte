@@ -45,6 +45,7 @@
     position: sticky;
     height: 100vh;
     background-color: #f0eee2;
+    box-shadow: 5px -5px 10px #d0d0d0;
   }
 
   .body {
