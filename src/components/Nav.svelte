@@ -25,13 +25,13 @@
     display: block;
     z-index: 1;
     text-decoration: none;
-    color: #333333;
+    color: #f5f5f5;
     cursor: pointer;
     text-align: left;
   }
 
   .nav-content:hover span {
-    color: #777777;
+    color: #d8d8d8;
     background: linear-gradient(
       90deg,
       rgba(0, 196, 255, 1) 0%,

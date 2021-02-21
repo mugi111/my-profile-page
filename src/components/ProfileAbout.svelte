@@ -12,6 +12,10 @@
     margin: 10px;
   }
 
+  .profile-about-name {
+    font-weight: bold;
+  }
+
   .profile-about-job {
     text-align: center;
   }

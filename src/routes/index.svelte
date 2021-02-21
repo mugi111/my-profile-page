@@ -44,12 +44,13 @@
     top: 0px;
     position: sticky;
     height: 100vh;
-    background-color: #f0eee2;
+    background-color: #050521;
     box-shadow: 5px -5px 10px #d0d0d0;
   }
 
   .body {
     padding: 30px;
+    background-color: #000000;
   }
 
   @media (max-width: 640px) {

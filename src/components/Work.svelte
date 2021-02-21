@@ -38,7 +38,7 @@
 <style>
   h2 {
     font-size: 46px;
-    text-shadow: 5px 5px 10px #a6a6a6, -5px -5px 10px #ffffff;
+    text-shadow: 0px 0px 10px #a6a6a6, 0px 0px 10px #ffffff;
   }
 
   .works {

@@ -51,10 +51,11 @@
     padding: 15px;
     margin: 10px;
     width: 200px;
-    height: 250px;
+    height: 300px;
     border-radius: 10px;
     background: #ffffff;
-    box-shadow: 5px 5px 10px #a6a6a6, -5px -5px 10px #ffffff;
+    color: #000000;
+    box-shadow: 0px 0px 10px #a6a6a6, 0px 0px 10px #ffffff;
   }
 
   .work-element-img-container {

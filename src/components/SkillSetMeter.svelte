@@ -33,7 +33,7 @@
     height: 20px;
     width: 180px;
     background-color: white;
-    box-shadow: inset 5px 5px 10px #e0e0e0, inset -5px -5px 10px #ffffff;
+    box-shadow: inset 0px 0px 10px #e0e0e0, inset 0px 0px 10px #ffffff;
     border-radius: 3px;
   }
 
@@ -42,7 +42,7 @@
     width: 10px;
     margin: 1px;
     border-radius: 3px;
-    background-color: #ff007d;
+    background-color: #ff092d;
   }
 
   .meter-square-hobby {
