@@ -23,10 +23,6 @@
 </div>
 
 <style>
-  h3 {
-    text-shadow: 0px 0px 10px #a6a6a6, 0px 0px 10px #ffffff;
-  }
-
   .language-container {
     display: flex;
     flex-wrap: wrap;
