@@ -37,7 +37,7 @@
   <div class="about-content-container">
     <h3>
       <i class="material-icons icon">work</i>
-      Experimense
+      Experience
     </h3>
     <li class="about-content">
       <span>株式会社FIXER</span>
