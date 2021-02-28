@@ -16,10 +16,10 @@
   .rect {
     position: absolute;
     background-color: #ffc700;
-    width: 380px;
-    height: 650px;
-    left: 240px;
-    top: 15px;
+    width: 50vw;
+    height: 90vh;
+    top: 5vh;
+    left: 260px;
   }
 
   @media (max-width: 640px) {

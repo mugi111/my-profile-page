@@ -28,7 +28,7 @@
 
 <style>
   .skillset-element {
-    width: 270px;
+    width: 250px;
     height: 80px;
     display: grid;
     padding: 15px;

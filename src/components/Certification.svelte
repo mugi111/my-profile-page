@@ -28,13 +28,35 @@
 
 <style>
   h2 {
-    font-size: 46px;
+    font-size: 96px;
+    margin-block-start: 0px;
+    margin-block-end: -40px;
   }
 
   .certifications-container {
-    color: rgba(255, 0, 125, 0.5);
-    background-color: rgba(0, 195, 255, 0.5);
-    padding: 10px;
-    margin-bottom: 150px;
+    color: rgba(255, 0, 125, 0.75);
+    min-height: 100vh;
+    margin-bottom: 50px;
+  }
+
+  .certifications {
+    background-color: rgba(0, 195, 255, 0.6);
+    padding: 40px 10px 20px;
+    width: calc(80vw - 200px);
+    height: 90%;
+    left: 5vw;
+    position: relative;
+    min-width: 300px;
+  }
+
+  @media (max-width: 640px) {
+    h2 {
+      font-size: 64px;
+      margin-block-end: -30px;
+    }
+
+    .certifications {
+      width: 80vw;
+    }
   }
 </style>

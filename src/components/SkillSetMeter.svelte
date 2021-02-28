@@ -31,7 +31,7 @@
     display: flex;
     margin: 5px 0px;
     height: 18px;
-    width: 180px;
+    width: 150px;
     vertical-align: middle;
     background-color: white;
     box-shadow: inset 0px 0px 10px #e0e0e0, inset 0px 0px 10px #ffffff;
