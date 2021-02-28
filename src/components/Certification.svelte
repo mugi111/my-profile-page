@@ -32,8 +32,8 @@
   }
 
   .certifications-container {
-    color: rgba(255, 0, 125, 0.3);
-    background-color: rgba(0, 195, 255, 0.3);
+    color: rgba(255, 0, 125, 0.5);
+    background-color: rgba(0, 195, 255, 0.5);
     padding: 10px;
     margin-bottom: 150px;
   }
