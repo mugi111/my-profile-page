@@ -51,7 +51,6 @@
     background-color: #050521;
     box-shadow: 5px -5px 10px #d0d0d0;
     z-index: 1;
-    min-width: 400px;
   }
 
   .body {
@@ -65,6 +64,7 @@
       position: relative;
       width: 100vw;
       height: 100%;
+      min-width: 400px;
     }
   }
   @media (min-width: 640px) {
