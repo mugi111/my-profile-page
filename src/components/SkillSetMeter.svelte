@@ -30,15 +30,16 @@
   .meter-container {
     display: flex;
     margin: 5px 0px;
-    height: 20px;
+    height: 18px;
     width: 180px;
+    vertical-align: middle;
     background-color: white;
     box-shadow: inset 0px 0px 10px #e0e0e0, inset 0px 0px 10px #ffffff;
     border-radius: 3px;
   }
 
   .meter-square-work {
-    height: 20px;
+    height: 16px;
     width: 10px;
     margin: 1px;
     border-radius: 3px;
@@ -46,7 +47,7 @@
   }
 
   .meter-square-hobby {
-    height: 20px;
+    height: 16px;
     width: 10px;
     margin: 1px;
     border-radius: 3px;

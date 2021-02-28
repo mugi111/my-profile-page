@@ -23,7 +23,6 @@
     border-radius: 10px;
     background: #ffffff;
     color: #000000;
-    box-shadow: 0px 0px 10px #a6a6a6, 0px 0px 10px #ffffff;
   }
 
   .cert-img {

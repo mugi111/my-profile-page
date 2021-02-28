@@ -1,5 +1,6 @@
 <script>
   import About from "../components/About.svelte";
+  import Background from "../components/Background.svelte";
   import Certification from "../components/Certification.svelte";
   import Sidebar from "../components/Sidebar.svelte";
   import SkillSet from "../components/SkillSet.svelte";
@@ -11,6 +12,7 @@
   <div class="sidebar">
     <Sidebar />
   </div>
+  <Background />
   <div class="body">
     <div class="about content" id="about">
       <About />
@@ -38,6 +40,7 @@
 
   footer {
     text-align: center;
+    color: #050521;
   }
 
   .sidebar {
@@ -46,11 +49,12 @@
     height: 100vh;
     background-color: #050521;
     box-shadow: 5px -5px 10px #d0d0d0;
+    z-index: 1;
   }
 
   .body {
     padding: 30px;
-    background-color: #000000;
+    z-index: 1;
   }
 
   @media (max-width: 640px) {

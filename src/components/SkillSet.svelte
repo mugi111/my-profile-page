@@ -4,11 +4,13 @@
   import Software from "./Software.svelte";
 </script>
 
-<h2>Skill Set</h2>
-<div class="skillsets">
-  <Language />
-  <Framework />
-  <Software />
+<div class="skillsets-container">
+  <h2>Skill Set</h2>
+  <div class="skillsets">
+    <Language />
+    <Framework />
+    <Software />
+  </div>
 </div>
 
 <style>
@@ -16,7 +18,10 @@
     font-size: 46px;
   }
 
-  .skillsets {
+  .skillsets-container {
+    color: rgba(255, 0, 125, 0.3);
+    background-color: rgba(0, 195, 255, 0.3);
+    padding: 10px;
     margin-bottom: 150px;
   }
 </style>

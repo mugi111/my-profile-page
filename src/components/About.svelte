@@ -52,7 +52,10 @@
   }
 
   .about-container {
+    color: rgba(255, 0, 125, 0.3);
     margin-bottom: 150px;
+    background-color: rgba(0, 195, 255, 0.3);
+    padding: 10px 20px;
   }
 
   .icon {

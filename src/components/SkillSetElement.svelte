@@ -28,7 +28,7 @@
 
 <style>
   .skillset-element {
-    width: 300px;
+    width: 270px;
     height: 80px;
     display: grid;
     padding: 15px;
@@ -36,7 +36,6 @@
     border-radius: 10px;
     background: #ffffff;
     color: #000000;
-    box-shadow: 0px 0px 10px #a6a6a6, 0px 0px 10px #ffffff;
   }
 
   .skillset-img-container {
