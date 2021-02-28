@@ -36,6 +36,7 @@
   main {
     text-align: left;
     margin: 0 auto;
+    min-width: 400px;
   }
 
   footer {
@@ -50,6 +51,7 @@
     background-color: #050521;
     box-shadow: 5px -5px 10px #d0d0d0;
     z-index: 1;
+    min-width: 400px;
   }
 
   .body {
