@@ -38,6 +38,7 @@
 
   footer {
     text-align: center;
+    color: #050521;
   }
 
   .sidebar {
@@ -50,7 +51,7 @@
 
   .body {
     padding: 30px;
-    background-color: #000000;
+    background-color: #ffffff;
   }
 
   @media (max-width: 640px) {
