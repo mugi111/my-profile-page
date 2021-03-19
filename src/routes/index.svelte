@@ -1,18 +1,20 @@
 <script>
   import About from "../components/About.svelte";
-  import Background from "../components/Background.svelte";
   import Certification from "../components/Certification.svelte";
   import Sidebar from "../components/Sidebar.svelte";
   import SkillSet from "../components/SkillSet.svelte";
+  import Top from "../components/Top.svelte";
   import Work from "../components/Work.svelte";
 </script>
 
 <header />
 <main>
+  <div>
+    <Top />
+  </div>
   <div class="sidebar">
     <Sidebar />
   </div>
-  <Background />
   <div class="body">
     <div class="about content" id="about">
       <About />
