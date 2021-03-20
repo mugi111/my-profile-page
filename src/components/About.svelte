@@ -62,7 +62,7 @@
   }
 
   .about-contents {
-    background-color: rgba(0, 195, 255, 0.6);
+    background-color: rgba(34, 109, 217, 0.4);
     padding: 40px 10px 20px;
     width: calc(80vw - 200px);
     height: 90%;
