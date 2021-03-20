@@ -12,25 +12,27 @@
   <div>
     <Top />
   </div>
-  <div class="sidebar">
-    <Sidebar />
-  </div>
-  <div class="body">
-    <div class="about content" id="about">
-      <About />
+  <div class="main-content">
+    <div class="sidebar">
+      <Sidebar />
     </div>
-    <div class="skillset content" id="skillset">
-      <SkillSet />
+    <div class="body">
+      <div class="about content" id="about">
+        <About />
+      </div>
+      <div class="skillset content" id="skillset">
+        <SkillSet />
+      </div>
+      <div class="work content" id="work">
+        <Work />
+      </div>
+      <div class="certification content" id="certification">
+        <Certification />
+      </div>
+      <footer>
+        <span class="footer">© 2021 Takumi Hirunuma</span>
+      </footer>
     </div>
-    <div class="work content" id="work">
-      <Work />
-    </div>
-    <div class="certification content" id="certification">
-      <Certification />
-    </div>
-    <footer>
-      <span class="footer">© 2021 Takumi Hirunuma</span>
-    </footer>
   </div>
 </main>
 
@@ -46,18 +48,22 @@
     color: #050521;
   }
 
+  .main-content {
+    display: flex;
+  }
+
   .sidebar {
     top: 0px;
     position: sticky;
     height: 100vh;
     background-color: #050521;
-    box-shadow: 5px -5px 10px #d0d0d0;
     z-index: 1;
   }
 
   .body {
     padding: 30px;
     z-index: 1;
+    display: block;
   }
 
   @media (max-width: 640px) {
@@ -72,7 +78,7 @@
   @media (min-width: 640px) {
     main {
       max-width: none;
-      display: flex;
+      display: block;
     }
   }
 </style>
