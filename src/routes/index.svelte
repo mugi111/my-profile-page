@@ -8,11 +8,11 @@
 </script>
 
 <header />
-<main>
-  <div>
+<main class="container">
+  <section class="top snap">
     <Top />
-  </div>
-  <div class="main-content">
+  </section>
+  <section class="main-content snap">
     <div class="sidebar">
       <Sidebar />
     </div>
@@ -33,10 +33,21 @@
         <span class="footer">© 2021 Takumi Hirunuma</span>
       </footer>
     </div>
-  </div>
+  </section>
 </main>
 
 <style>
+  .container {
+    scroll-snap-type: y mandatory;
+    overflow: scroll;
+    height: 100vh;
+  }
+
+  .snap {
+    position: relative;
+    scroll-snap-align: start;
+  }
+
   main {
     text-align: left;
     margin: 0 auto;
