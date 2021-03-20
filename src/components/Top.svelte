@@ -10,7 +10,13 @@
   <div class="top__profile">
     <h1 class="top__profile--name">Hirunuma Takumi</h1>
     <div class="top__profile--acount">
-      <TopAcountLink />
+      <TopAcountLink
+        twitterLink="https://twitter.com/mg111_"
+        facebookLink="https://www.facebook.com/takumi.hirunuma"
+        instagramLink="https://www.instagram.com/mgfm1001/"
+        githubLink="https://github.com/mugi111"
+        npmLink="https://www.npmjs.com/~mugi111"
+      />
     </div>
     <img alt="profile-icon" src={ProfileIcon} class="top__profile--icon" />
   </div>

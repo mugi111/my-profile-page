@@ -1,14 +1,9 @@
 <script>
   import TwitterIcon from "../assets/twitter-logo.svg";
-  import TwitterIconGrey from "../assets/twitter-logo-grey.svg";
   import FacebookIcon from "../assets/facebook-logo.svg";
-  import FacebookIconGrey from "../assets/facebook-logo-grey.svg";
   import InstagramIcon from "../assets/instagram-logo.svg";
-  import InstagramIconGrey from "../assets/instagram-logo-grey.svg";
   import GithubIcon from "../assets/github-logo.svg";
-  import GithubIconGrey from "../assets/github-logo-grey.svg";
   import NpmIcon from "../assets/npm-logo.svg";
-  import NpmIconGrey from "../assets/npm-logo-grey.svg";
   export let twitterLink;
   export let facebookLink;
   export let instagramLink;
