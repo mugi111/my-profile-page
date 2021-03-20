@@ -53,7 +53,7 @@
     font-size: 60px;
     top: 100px;
     margin-block-start: 0px;
-    margin-block-end: -20px;
+    margin-block-end: -30px;
   }
 
   .about-container {
