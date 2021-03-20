@@ -19,7 +19,6 @@
 
 <div class="top-acount-link">
   <a href={twitterLink} target="_blank" class="acount-link">
-    <img alt="twitter-logo" src={TwitterIconGrey} class="acount-icon round" />
     <img
       alt="twitter-logo-active"
       src={TwitterIcon}
@@ -27,7 +26,6 @@
     />
   </a>
   <a href={facebookLink} target="_blank" class="acount-link">
-    <img alt="facebook-logo" src={FacebookIconGrey} class="acount-icon round" />
     <img
       alt="facebook-logo-active"
       src={FacebookIcon}
@@ -36,18 +34,12 @@
   </a>
   <a href={instagramLink} target="_blank" class="acount-link">
     <img
-      alt="instagram-logo"
-      src={InstagramIconGrey}
-      class="acount-icon round"
-    />
-    <img
       alt="instagram-logo-active"
       src={InstagramIcon}
       class="acount-icon round active"
     />
   </a>
   <a href={githubLink} target="_blank" class="acount-link">
-    <img alt="github-logo" src={GithubIconGrey} class="acount-icon round" />
     <img
       alt="github-logo-active"
       src={GithubIcon}
@@ -63,7 +55,6 @@
     <img alt="qiita-logo-active" src={qiitaLink} class="tech-icon active" />
   </a> -->
   <a href={npmLink} target="_blank" class="acount-link">
-    <img alt="npm-logo" src={NpmIconGrey} class="acount-icon" />
     <img alt="npm-logo-active" src={NpmIcon} class="acount-icon active" />
   </a>
 </div>
@@ -78,6 +69,7 @@
   }
 
   .acount-link {
+    width: 50px;
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -86,16 +78,11 @@
 
   .acount-link .active {
     position: absolute;
-    opacity: 0;
-    transition: 0.3s;
-  }
-
-  .acount-link:hover .active {
     opacity: 1;
   }
 
   .acount-icon {
-    width: 50px;
+    width: inherit;
     background-color: white;
   }
 </style>

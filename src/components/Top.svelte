@@ -40,13 +40,15 @@
   .top__profile {
     display: grid;
     position: absolute;
-    top: 45vh;
+    top: 40vh;
     left: 10vw;
+    margin: 30px;
+    min-width: inherit;
   }
 
   .top__profile--name {
     grid-row: 1 / 2;
-    font-size: 86px;
+    font-size: 6vw;
     margin-bottom: 0px;
   }
 
@@ -55,7 +57,7 @@
   }
 
   .top__profile--icon {
-    width: 300px;
+    width: 25vw;
     margin-left: 100px;
     grid-row: 1 / 3;
     border-radius: 50%;
