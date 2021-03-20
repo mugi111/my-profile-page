@@ -28,9 +28,9 @@
 
 <style>
   h2 {
-    font-size: 96px;
+    font-size: 60px;
     margin-block-start: 0px;
-    margin-block-end: -40px;
+    margin-block-end: -30px;
   }
 
   .certifications-container {
