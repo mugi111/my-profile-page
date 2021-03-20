@@ -57,7 +57,6 @@
   }
 
   .about-container {
-    color: rgba(255, 0, 123, 0.75);
     margin-bottom: 50px;
     min-height: 100vh;
   }

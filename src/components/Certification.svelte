@@ -34,7 +34,6 @@
   }
 
   .certifications-container {
-    color: rgba(255, 0, 125, 0.75);
     min-height: 100vh;
     margin-bottom: 50px;
   }

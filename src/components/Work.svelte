@@ -45,7 +45,6 @@
   }
 
   .works-container {
-    color: rgba(255, 0, 125, 0.75);
     display: block;
     min-height: 100vh;
     margin-bottom: 50px;

@@ -45,7 +45,7 @@
 
   footer {
     text-align: center;
-    color: #050521;
+    color: #f0f0f0;
   }
 
   .main-content {
