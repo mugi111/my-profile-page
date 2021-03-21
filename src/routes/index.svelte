@@ -38,6 +38,8 @@
     scroll-snap-type: y proximity;
     overflow: scroll;
     height: 100vh;
+    -webkit-scroll-behavior: smooth;
+    scroll-behavior: smooth;
   }
 
   .snap {
