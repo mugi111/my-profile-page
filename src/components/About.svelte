@@ -54,11 +54,12 @@
     top: 100px;
     margin-block-start: 0px;
     margin-block-end: -30px;
+    padding-top: 60px;
+    margin-top: -60px;
   }
 
   .about-container {
     margin-bottom: 50px;
-    min-height: 100vh;
   }
 
   .about-contents {

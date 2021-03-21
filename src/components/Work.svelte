@@ -42,6 +42,8 @@
     font-size: 60px;
     margin-block-start: 0px;
     margin-block-end: -30px;
+    padding-top: 60px;
+    margin-top: -60px;
   }
 
   .works-container {
