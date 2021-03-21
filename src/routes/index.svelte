@@ -71,4 +71,8 @@
     z-index: 1;
     scroll-padding-top: 60px;
   }
+
+  .content {
+    padding: 20px;
+  }
 </style>
