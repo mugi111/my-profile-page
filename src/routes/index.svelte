@@ -69,7 +69,6 @@
     padding-top: 60px;
     display: block;
     z-index: 1;
-    scroll-padding-top: 60px;
   }
 
   .content {
