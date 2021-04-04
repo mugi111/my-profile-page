@@ -63,7 +63,6 @@
   }
 
   .about-contents {
-    background-color: rgba(34, 109, 217, 0.4);
     padding: 40px 10px 20px;
     width: calc(80vw - 200px);
     height: 90%;
@@ -82,16 +81,5 @@
 
   .about-content {
     list-style: none;
-  }
-
-  @media (max-width: 640px) {
-    h2 {
-      font-size: 64px;
-      margin-block-end: -30px;
-    }
-
-    .about-contents {
-      width: 80vw;
-    }
   }
 </style>

@@ -1,20 +1,16 @@
 <script>
   import About from "../components/About.svelte";
   import Certification from "../components/Certification.svelte";
-  import Header from "../components/Header.svelte";
+  import Sidebar from "../components/Sidebar.svelte";
   import SkillSet from "../components/SkillSet.svelte";
-  import Top from "../components/Top.svelte";
   import Work from "../components/Work.svelte";
 </script>
 
-<header>
-  <Header />
-</header>
 <main class="container">
-  <div class="top snap">
-    <Top />
+  <div class="sidebar">
+    <Sidebar />
   </div>
-  <div class="main-content snap">
+  <div class="main-content">
     <div class="about content" id="about">
       <About />
     </div>
@@ -42,21 +38,8 @@
     scroll-behavior: smooth;
   }
 
-  .snap {
-    position: relative;
-    scroll-snap-align: start;
-  }
-
-  .top {
-    z-index: 3;
-  }
-
-  header {
-    background-color: #333333;
-    width: 100vw;
-    position: fixed;
-    right: 0px;
-    z-index: 2;
+  .sidebar {
+    position: sticky;
   }
 
   footer {

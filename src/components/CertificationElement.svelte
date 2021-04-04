@@ -21,8 +21,9 @@
     width: 100px;
     height: 120px;
     border-radius: 10px;
-    background: #ffffff;
-    color: #000000;
+    background: var(--white2);
+    color: var(--black1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
   }
 
   .cert-img {
