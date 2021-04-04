@@ -53,8 +53,9 @@
     width: 200px;
     height: 300px;
     border-radius: 10px;
-    background: #ffffff;
-    color: #000000;
+    background: var(--white2);
+    color: var(--black1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
   }
 
   .work-element-img-container {
