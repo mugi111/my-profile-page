@@ -24,6 +24,5 @@
   .profile-container {
     text-align: center;
     padding: 20px;
-    background-color: var(--white2);
   }
 </style>

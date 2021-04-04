@@ -28,15 +28,14 @@
 
 <style>
   .skillset-element {
-    width: 300px;
+    width: 250px;
     height: 80px;
     display: grid;
     padding: 15px;
     margin: 10px;
-    border-radius: 5px;
-    background: var(--white2);
-    color: var(--black1);
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background: #ffffff;
+    color: #000000;
   }
 
   .skillset-img-container {

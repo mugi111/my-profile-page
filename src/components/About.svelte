@@ -50,19 +50,20 @@
 
 <style>
   h2 {
-    font-size: 60px;
+    font-size: 96px;
     top: 100px;
     margin-block-start: 0px;
-    margin-block-end: -30px;
-    padding-top: 60px;
-    margin-top: -60px;
+    margin-block-end: -40px;
   }
 
   .about-container {
+    color: rgba(255, 0, 123, 0.75);
     margin-bottom: 50px;
+    min-height: 100vh;
   }
 
   .about-contents {
+    background-color: rgba(0, 195, 255, 0.6);
     padding: 40px 10px 20px;
     width: calc(80vw - 200px);
     height: 90%;
@@ -81,5 +82,16 @@
 
   .about-content {
     list-style: none;
+  }
+
+  @media (max-width: 640px) {
+    h2 {
+      font-size: 64px;
+      margin-block-end: -30px;
+    }
+
+    .about-contents {
+      width: 80vw;
+    }
   }
 </style>

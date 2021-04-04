@@ -1,5 +1,9 @@
 <script lang="typescript">
   import TwitterAvatar from "../assets/mg-twitter.png";
+  import FacebookAvatar from "../assets/h-t-facebook.jpg";
+  import InstagramAvatar from "../assets/h-t-instagram.jpg";
+  import { FACEBOOK, TWITTER } from "../types";
+  export let type;
   let imageSrc = TwitterAvatar;
 </script>
 

@@ -5,6 +5,5 @@
 
 <div class="sidebar-content">
   <Profile />
-  <hr />
   <Nav />
 </div>

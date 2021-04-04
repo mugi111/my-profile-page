@@ -25,15 +25,27 @@
     display: block;
     z-index: 1;
     text-decoration: none;
-    color: var(--black1);
+    color: #f5f5f5;
     cursor: pointer;
     text-align: left;
   }
 
   .nav-content:hover span {
     color: #d8d8d8;
+    background: linear-gradient(
+      90deg,
+      rgba(0, 196, 255, 1) 0%,
+      rgba(255, 0, 125, 1) 50%,
+      rgba(255, 199, 0, 1) 100%
+    );
     background-repeat: no-repeat;
     background-size: 100% 12%;
     background-position: center;
+  }
+
+  @media (max-width: 640px) {
+    .nav-container {
+      display: none;
+    }
   }
 </style>
