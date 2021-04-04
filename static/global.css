@@ -2,8 +2,6 @@ html,
 body {
   display: flex;
   position: relative;
-  width: 100%;
-  height: 100%;
   background-color: var(--white1);
   color: var(--black1);
   --white1: #f0f0f0;
