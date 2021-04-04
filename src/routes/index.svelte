@@ -36,10 +36,14 @@
     height: 100vh;
     -webkit-scroll-behavior: smooth;
     scroll-behavior: smooth;
+    display: flex;
   }
 
   .sidebar {
     position: sticky;
+    top: 0;
+    background-color: var(--white2);
+    box-shadow: 4px 0px 15px rgba(0, 0, 0, 0.1);
   }
 
   footer {
@@ -50,7 +54,6 @@
 
   .main-content {
     padding-top: 60px;
-    display: block;
     z-index: 1;
   }
 
