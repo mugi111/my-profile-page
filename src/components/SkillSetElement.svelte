@@ -36,7 +36,7 @@
     border-radius: 5px;
     background: var(--white2);
     color: var(--black1);
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .skillset-img-container {

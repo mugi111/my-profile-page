@@ -15,6 +15,11 @@
 </div>
 
 <style>
+  h3 {
+    font-size: var(--sub-title-size);
+    text-shadow: var(--title-shadow);
+  }
+
   .framework-container {
     display: flex;
     flex-wrap: wrap;
