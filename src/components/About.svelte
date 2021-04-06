@@ -64,9 +64,7 @@
 
   .about-contents {
     padding: 40px 10px 20px;
-    width: calc(80vw - 200px);
     height: 90%;
-    left: 5vw;
     position: relative;
     min-width: 300px;
   }

@@ -23,9 +23,9 @@
     <div class="certification content" id="certification">
       <Certification />
     </div>
-    <!-- <footer>
+    <footer>
       <span class="footer">© 2021 Takumi Hirunuma</span>
-    </footer> -->
+    </footer>
   </div>
 </main>
 
@@ -46,11 +46,10 @@
     box-shadow: 4px 0px 15px rgba(0, 0, 0, 0.1);
   }
 
-  /* footer {
+  footer {
     text-align: center;
-    color: #f0f0f0;
-    width: 100vw;
-  } */
+    color: var(--black1);
+  }
 
   .main-content {
     z-index: 1;
