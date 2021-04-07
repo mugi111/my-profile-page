@@ -56,6 +56,6 @@
   }
 
   .content {
-    padding: 20px;
+    padding: 40px;
   }
 </style>
