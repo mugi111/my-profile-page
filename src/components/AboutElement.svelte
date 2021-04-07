@@ -16,7 +16,7 @@
     display: inline-grid;
     position: relative;
     margin: 5px;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
     background: var(--white2);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
