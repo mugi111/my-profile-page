@@ -3,7 +3,7 @@
 </script>
 
 <div class="about-container">
-  <h2>About</h2>
+  <h2 class="text-lg">About</h2>
   <div class="about-contents">
     <AboutElement title="Name" body={["蛭沼 拓視", "Hirunuma Takumi"]} />
     <AboutElement title="Birth" body={["八王子市", "1998 / 12 / 30"]} />
