@@ -9,13 +9,9 @@
     <AboutElement title="Birth" body={["八王子市", "1998 / 12 / 30"]} />
     <AboutElement title="Address" body={["東京都"]} />
     <AboutElement
-      title="Education"
-      body={["国立東京工業高等専門学校", "情報工学科", "2014 - 2019"]}
-    />
-    <AboutElement
-      title="Experience"
+      title="History"
       body={[
-        "国立東京工業高等専門学校    2014 - 2019",
+        "国立東京工業高等専門学校情報工学科    2014 - 2019",
         "株式会社FIXER    2019 - ",
       ]}
     />
