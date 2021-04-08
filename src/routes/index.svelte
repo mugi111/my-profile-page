@@ -57,5 +57,25 @@
 
   .content {
     padding: 40px;
+    min-width: 300px;
+  }
+
+  @media screen and (max-width: 780px) {
+    .container {
+      display: block;
+    }
+
+    .main-content {
+      position: relative;
+    }
+    .sidebar {
+      position: relative;
+      width: 100vw;
+    }
+
+    .content {
+      padding: 5px;
+      min-width: 0px;
+    }
   }
 </style>

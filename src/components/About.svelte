@@ -34,6 +34,5 @@
     padding: 40px 10px 20px;
     height: 90%;
     position: relative;
-    min-width: 300px;
   }
 </style>
