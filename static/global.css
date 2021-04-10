@@ -1,6 +1,5 @@
 html,
 body {
-  display: flex;
   position: relative;
   background-color: var(--white1);
   color: var(--black1);
